@@ -20,7 +20,7 @@ Add repository to project level build.gradle file:
 ```
 allprojects {
     repositories {
-        maven { url "https://raw.githubusercontent.com/ondato/mobile-sdk-android/main/repos/" }
+        maven { url "https://raw.githubusercontent.com/ondato/ondato-sdk-android/main/repos/" }
     }
 }
 
