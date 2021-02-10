@@ -60,7 +60,7 @@ Create an `OndatoConfig` using your username, along with the password, choose mo
 
 ```
 
-### 4. Starting the flow
+### 3. Starting the flow
 
 ```kotlin
         Ondato.init(config)
