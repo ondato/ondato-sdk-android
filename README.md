@@ -30,7 +30,7 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk:1.6.1"
+    implementation "com.kyc.ondato:sdk:1.6.2"
 }
 ```         
 
@@ -44,7 +44,7 @@ Create an `OndatoConfig` using your username, along with the password, choose mo
             .setIdentificationId("identification id")
             .setCredentials("username", "password")
             .showSplashScreen(true) //default is true
-            .showStartStartScreen(true) //default is true
+            .showStartScreen(true) //default is true
             .showConsentScreen(true) //default is true
             .showSelfieWithDocumentScreen(true) //default is true
             .showSuccessScreen(true) //default is true
