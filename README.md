@@ -94,3 +94,24 @@ Ondato Android SDK already comes with out-of-the-box translations for the follow
 - English (en) :uk:
 - Lithuanian (lt) :lt:
 - German (de) :de:
+
+### 5. Theme Customization
+In order to enhance the user experience on the transition between your application and the SDK, you can provide some customisation by defining certain colors inside your own colors.xml file:
+
+ondatoColorProgressBarAccent: Defines the color of the ProgressBarView which guides the user through the flow
+
+ondatoColorButtonText: Defines the background color of the primary action buttons text
+
+ondatoColorButtonBackgroundUnfocused: Defines the background color of the primary action buttons
+
+ondatoColorButtonBackgroundFocusedStart: Defines the background color of the primary action buttons gradient start when pressed
+
+ondatoColorButtonBackgroundFocusedCenter: Defines the background color of the primary action buttons gradient center when pressed
+
+ondatoColorButtonBackgroundFocusedEnd: Defines the background color of the primary action buttons gradient end when pressed
+
+ondatoColorErrorBg: Defines the background color of the error message background
+
+ondatoColorErrorText: Defines the background color of the error message text color
+
+ondatoColorPrimaryDark: Defines the taskbar color
