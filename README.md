@@ -30,7 +30,7 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk:1.6.2"
+    implementation "com.kyc.ondato:sdk:1.6.3"
 }
 ```         
 
@@ -91,9 +91,11 @@ You can define custom success screen which is shown when user data is successful
 
 ### 4. Localisation
 Ondato Android SDK already comes with out-of-the-box translations for the following locales:
-- English (en) :uk:
-- Lithuanian (lt) :lt:
-- German (de) :de:
+- English (en) 🇬🇧
+- Lithuanian (lt) 🇱🇹
+- German (de) 🇩🇪
+- Latvian (lv) 🇱🇻
+- Estonian (ee) 🇪🇪
 
 ### 5. Theme Customization
 In order to enhance the user experience on the transition between your application and the SDK, you can provide some customisation by defining certain colors inside your own colors.xml file:
