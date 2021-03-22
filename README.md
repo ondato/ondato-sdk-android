@@ -30,7 +30,7 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk:1.6.3"
+    implementation "com.kyc.ondato:sdk:1.6.4"
 }
 ```         
 
@@ -96,6 +96,7 @@ Ondato Android SDK already comes with out-of-the-box translations for the follow
 - German (de) 🇩🇪
 - Latvian (lv) 🇱🇻
 - Estonian (ee) 🇪🇪
+- Russian (ru) 🇷🇺
 
 ### 5. Theme Customization
 In order to enhance the user experience on the transition between your application and the SDK, you can provide some customisation by defining certain colors inside your own colors.xml file:
