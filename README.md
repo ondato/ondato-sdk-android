@@ -95,7 +95,7 @@ Ondato Android SDK already comes with out-of-the-box translations for the follow
 - Lithuanian (lt) 🇱🇹
 - German (de) 🇩🇪
 - Latvian (lv) 🇱🇻
-- Estonian (ee) 🇪🇪
+- Estonian (et) 🇪🇪
 - Russian (ru) 🇷🇺
 
 ### 5. Theme Customization
