@@ -50,7 +50,7 @@ Create an `OndatoConfig` using your username, along with the password, choose mo
             .recordProcess(true) //default is true
             .setMode(OndatoConfig.Mode.TEST) //default is TEST
             .setLanguage(Language.English) // default is English
-            .setLivenessCheckMode(Active) //default is Active
+            .setLivenessCheckMode(LivenessCheck.Active) //default is Active
             .setLoadingScreenProvider { CustomLoadingFragment() }
             .setStartScreenProvider { callback -> CustomStartFragment.newInstance(callback) }
             .setSuccessScreenProvider { callback -> CustomSuccessFragment.newInstance(callback) }
