@@ -50,13 +50,16 @@ Create an `OndatoConfig` using your username, along with the password, choose mo
             .recordProcess(true) //default is true
             .setMode(OndatoConfig.Mode.TEST) //default is TEST
             .setLanguage(Language.English) // default is English
-            .setLivenessCheckMode(LivenessCheck.Active) //default is Active
+            .setLivenessCheckMode(LivenessCheck.Active) //Choose Active or Passive, default is Active
             .setLoadingScreenProvider { CustomLoadingFragment() }
             .setStartScreenProvider { callback -> CustomStartFragment.newInstance(callback) }
             .setSuccessScreenProvider { callback -> CustomSuccessFragment.newInstance(callback) }
             .build()
 
 ```
+
+In case, Passive Liveness check is configured, please, contact Ondato support team support@ondato.com to check if your account is configured accordingly.
+
 
 ### 3. Starting the flow
 
