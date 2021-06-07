@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kyc.ondato",
+    "module": "sdk",
+    "version": "1.7.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "raswycnwa5fzvmuij6ggbrdjka"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "sdk-1.7.1.aar",
+          "url": "sdk-1.7.1.aar",
+          "size": 1297423,
+          "sha512": "c0b07b3652e6641b8fe3cba997ff1e974c8d8961c382a0253246dd4997cbcf45f063694c157c7f62485eb97f9c6358bb2ac2b015ed0d576075c43ca793a35b49",
+          "sha256": "867b4aba4c90c477467d3f003cab5d860438f51b0456c01a12b6aa41b710eb1f",
+          "sha1": "75054b8b3fdb2091f13c46a4b6c821a9f831a678",
+          "md5": "d06843a82869658fed24d46b9413a30a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.0.4"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-androidx-viewmodel",
+          "version": {
+            "requires": "2.2.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "com.otaliastudios",
+          "module": "cameraview",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-scalars",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.9.0"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.facetec",
+          "module": "sdk",
+          "version": {
+            "requires": "9.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-1.7.1.aar",
+          "url": "sdk-1.7.1.aar",
+          "size": 1297423,
+          "sha512": "c0b07b3652e6641b8fe3cba997ff1e974c8d8961c382a0253246dd4997cbcf45f063694c157c7f62485eb97f9c6358bb2ac2b015ed0d576075c43ca793a35b49",
+          "sha256": "867b4aba4c90c477467d3f003cab5d860438f51b0456c01a12b6aa41b710eb1f",
+          "sha1": "75054b8b3fdb2091f13c46a4b6c821a9f831a678",
+          "md5": "d06843a82869658fed24d46b9413a30a"
+        }
+      ]
+    }
+  ]
+}
