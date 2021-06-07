@@ -30,7 +30,7 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk:1.7.0"
+    implementation "com.kyc.ondato:sdk:1.7.1"
 }
 ```         
 
@@ -52,6 +52,7 @@ Create an `OndatoConfig` using your username, along with the password, choose mo
             .setLanguage(Language.English) // default is English
             .setLivenessCheckMode(LivenessCheck.Active) //Choose Active or Passive, default is Active
             .setLoadingScreenProvider { CustomLoadingFragment() }
+            .setDriverLicenseBacksideRequired(true) //default is false
             .setStartScreenProvider { callback -> CustomStartFragment.newInstance(callback) }
             .setSuccessScreenProvider { callback -> CustomSuccessFragment.newInstance(callback) }
             .build()
