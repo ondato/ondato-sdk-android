@@ -30,7 +30,7 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk:1.7.1"
+    implementation "com.kyc.ondato:sdk:1.7.2"
 }
 ```         
 
@@ -48,6 +48,7 @@ Create an `OndatoConfig` using your username, along with the password, choose mo
             .showSelfieWithDocumentScreen(true) //default is true
             .showSuccessScreen(true) //default is true
             .recordProcess(true) //default is true
+            .setRemoveSelfieFrame(false) // default is false (only for passive liveness)
             .setMode(OndatoConfig.Mode.TEST) //default is TEST
             .setLanguage(Language.English) // default is English
             .setLivenessCheckMode(LivenessCheck.Active) //Choose Active or Passive, default is Active
