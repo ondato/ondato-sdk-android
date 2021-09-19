@@ -30,7 +30,7 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk:1.7.2"
+    implementation "com.kyc.ondato:sdk:1.8.0"
 }
 ```         
 
@@ -50,7 +50,7 @@ Create an `OndatoConfig` using your username, along with the password, choose mo
             .recordProcess(true) //default is true
             .setRemoveSelfieFrame(false) // default is false (only for passive liveness)
             .setMode(OndatoConfig.Mode.TEST) //default is TEST
-            .setLanguage(Language.English) // default is English
+            .setLanguage(Language.English) // default is English, supports System (is in English if not translated)
             .setLivenessCheckMode(LivenessCheck.Active) //Choose Active or Passive, default is Active
             .setLoadingScreenProvider { CustomLoadingFragment() }
             .setDriverLicenseBacksideRequired(true) //default is false
@@ -100,24 +100,63 @@ Ondato Android SDK already comes with out-of-the-box translations for the follow
 - Latvian (lv) 🇱🇻
 - Estonian (et) 🇪🇪
 - Russian (ru) 🇷🇺
+- Albanian (sq) 🇦🇱
+- System ⚙️ (if device language is not translated, everything will be in English) 
+
+You can also provide your own translations by overriding Ondato's string keys.
 
 ### 5. Theme Customization
 In order to enhance the user experience on the transition between your application and the SDK, you can provide some customisation by defining certain colors inside your own colors.xml file:
 
-ondatoColorProgressBarAccent: Defines the color of the ProgressBarView which guides the user through the flow
+    <!-- Ondato's Status Bar -->
+    <color name="ondatoColorPrimaryDark">#fd5a28</color>
+    
+    <!-- Ondato's Primary and Accent Colors -->
+    <color name="ondatoColorPrimary">#fd5a28</color> 
+    <color name="ondatoColorAccent">#FF5A28</color>
 
-ondatoColorButtonText: Defines the background color of the primary action buttons text
+    <!-- Ondato's Text Colors -->
+    <color name="ondatoTextColor">#000000</color>
+    <color name="ondatoSecondaryTextColor">#244D50</color>
+    
+    <!-- Ondato's Primary Button with Gradient colors -->
+    <color name="ondatoColorButton">#fd5a28</color>
+    <color name="ondatoColorButtonFocusedStart">#fd5a28</color>
+    <color name="ondatoColorButtonFocusedCenter">#FF8000</color>
+    <color name="ondatoColorButtonFocusedEnd">#FF9700</color>
+    <color name="ondatoColorButtonText">#ffffff</color>
+    
+    <!-- Ondato's Outlined Button Colors -->
+    <color name="ondatoOutlinedButtonColor">#fd5a28</color>
+    <color name="ondatoOutlinedButtonTextColor">#fd5a28</color>
 
-ondatoColorButtonBackgroundUnfocused: Defines the background color of the primary action buttons
+    <color name="ondatoColorBackground">#ffffff</color>
+    
+    <!-- Ondato's Illustration Colors -->
+    <color name="ondatoIconColor">#fd5a28</color>
+    
+    <!-- Ondato's Active Liveness Screen Colors -->
+    <color name="ondatoActiveLivenessOvalProgressColor">#FF5A28</color>
+    <color name="ondatoActiveLivenessOvalProgressColorSecondary">#FF5A28</color>
+    <color name="ondatoActiveLivenessResultActivityIndicatorColor">#FF5A28</color>
+    <color name="ondatoActiveLivenessResultAnimationBackgroundColor">#FF5A28</color>
+    <color name="ondatoActiveLivenessResultUploadProgressColor">#FF5A28</color>
+    <color name="ondatoActiveLivenessResultAnimationForegroundColor">#FF5A28</color>
+    <color name="ondatoActiveLivenessResultUploadProgressTrackColor">#FF5A28</color>
+    <color name="ondatoActiveLivenessResultForegroundColor">#FF5A28</color>
+    <color name="ondatoActiveLivenessCameraFilter">#fff</color>
+    
+     <!-- Used for Active Liveness Screen Buttons -->
+    <color name="ondatoDisabledButtonColor">#FAB2A5</color>
+    <color name="ondatoHighlightButtonColor">#b02e16</color>
 
-ondatoColorButtonBackgroundFocusedStart: Defines the background color of the primary action buttons gradient start when pressed
-
-ondatoColorButtonBackgroundFocusedCenter: Defines the background color of the primary action buttons gradient center when pressed
-
-ondatoColorButtonBackgroundFocusedEnd: Defines the background color of the primary action buttons gradient end when pressed
-
-ondatoColorErrorBg: Defines the background color of the error message background
-
-ondatoColorErrorText: Defines the background color of the error message text color
-
-ondatoColorPrimaryDark: Defines the taskbar color
+    <!-- Ondato's Error Colors -->
+    <color name="ondatoColorErrorBg">#fd5a28</color>
+    <color name="ondatoColorErrorText">#ffffff</color>
+    
+    <!-- Other -->
+    <color name="ondatoColorSeparatorColor">#e5e6e7</color>
+    <color name="ondatoColorAlmostTransparent">#70ffffff</color>
+    <color name="ondatoColorAlmostTransparent2">#CCFFFFFF</color>
+    <color name="ondatoColorLanguagesBorder">#E2E2E2</color>>
+    <color name="ondatoColorCameraFilter">#65000000</color>
