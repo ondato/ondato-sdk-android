@@ -103,7 +103,7 @@ Ondato Android SDK already comes with out-of-the-box translations for the follow
 - Albanian (sq) 🇦🇱
 - System ⚙️ (if device language is not translated, everything will be in English) 
 
-You can also provide your own translations by overriding Ondato's string keys.
+You can also **provide your own translations** by overriding [Ondato's string keys](https://github.com/ondato/ondato-sdk-android/blob/main/strings/strings.xml) in your `strings.xml`.
 
 ### 5. Theme Customization
 In order to enhance the user experience on the transition between your application and the SDK, you can provide some customisation by defining certain colors inside your own colors.xml file:
