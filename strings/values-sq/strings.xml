@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ondato_start_identification_title">Mirë se vini në procesin e verifikimit të identitetit</string>
+    <string name="ondato_start_identification_description">Për të vazhduar përdorimin e këtij shërbimi, duhet të vërtetoni se i plotësoni kërkesat. Procesi i verifikimit përbëhet nga 4 hapa</string>
+    <string name="ondato_start_identification_step_1">1. Zgjidhni një dokument</string>
+    <string name="ondato_start_identification_step_2">2. Bëjini një foto dokumentit</string>
+    <string name="ondato_start_identification_step_3">3. Fotografoni fytyrën tuaj</string>
+    <string name="ondato_continue_anyway">Vazhdojme</string>
+    <string name="ondato_loading_title">Duke u perpunuar</string>
+    <string name="ondato_loading_subtitle">Ju lutem prisni</string>
+    <string name="ondato_choose_document_title">Zgjidhni një dokument dhe filloni të bëni verifikimin</string>
+    <string name="ondato_choose_document_passport">Pashaporte</string>
+    <string name="ondato_choose_document_id_card">Karte Identiteti</string>
+    <string name="ondato_choose_document_driving_licence">Patente</string>
+    <string name="ondato_success_title">Registration successful</string>
+    <string name="ondato_success_subtitle">Once your registration will be processed you will be notified by email.</string>
+    <string name="ondato_close">Mbyll</string>
+    <string name="ondato_button_capture">Capture</string>
+    <string name="ondato_try_again">Provoje perseri</string>
+    <string name="ondato_capture_passport_front_title">Ju lutem fotografoni faqen kryesore te dokumentit i cili permban edhe shiritin e sigurise MRZ</string>
+    <string name="ondato_capture_id_card_front_title">Ju lutem te fotografoni anen e perparme te kartes se identitetit</string>
+    <string name="ondato_capture_driver_licence_front_title">Please capture the front side of driving license</string>
+    <string name="ondato_language_en" translatable="false">English</string>
+    <string name="ondato_language_english_short" translatable="false">EN</string>
+    <string name="ondato_language_lt" translatable="false">Lietuvių kalba</string>
+    <string name="ondato_language_lithuanian_short" translatable="false">LT</string>
+    <string name="ondato_language_de" translatable="false">Deutsch</string>
+    <string name="ondato_language_german_short" translatable="false">DE</string>
+    <string name="ondato_language_lv" translatable="false">Latvietis valoda</string>
+    <string name="ondato_language_lv_short" translatable="false">LV</string>
+    <string name="ondato_language_ee" translatable="false">Eestlane keel</string>
+    <string name="ondato_language_ee_short" translatable="false">ET</string>
+    <string name="ondato_language_ru" translatable="false">Pусский</string>
+    <string name="ondato_language_ru_short" translatable="false">RU</string>
+    <string name="ondato_error_unauthorized_message">UNAUTHORIZED</string>
+    <string name="ondato_error_bad_request_message">BAD_REQUEST</string>
+    <string name="ondato_error_internal_server_error_message">INTERNAL SERVER ERROR</string>
+    <string name="ondato_error_connection_failed">CONNECTION ERROR</string>
+    <string name="ondato_error_server_is_down_message">SERVER IS DOWN</string>
+    <string name="ondato_error_default_title">Oops...</string>
+    <string name="ondato_error_timeout_message">Sesioni perfundoi</string>
+    <string name="ondato_start_button">Fillojme</string>
+    <string name="ondato_error_something_wrong_title">Ka ndodhur Error</string>
+    <string name="ondato_consent_title">Pelqimi per procesimin e te dhenave personale</string>
+    <string name="ondato_consent_terms">Ne menyre qe te perfitoj sherbimin nga Kredo.al, me kete pelqim une shpreh dakortesine time qe UAB “Ondato“ do te marre dhe menaxhoje te dhenat e mia personale, duke perfshire edhe te dhenat e mia biometrike, te marra gjate identifikimit ne distance te identitetit tim duke marre dhe/ose filmuar imazhe live te fytyres sime, identitetin e personit tim ose dokumentin e perdorur per te identifikuar ate dhe/ose imazhet e tyre dhe te dhenat personale qe kane ato dhe/ose kontrolli ne rregjistrin e popullsise: imazhi i fytyres sime, emer, mbiemer, kombesia, gjinia, kodi personal, dita e lindjes, numrat e identifikimit qe po perdoret, data e levrimit dhe vlefshmeria, firma ime, dhe transferimi i ketyre te dhenave te Kredo.al. Une gjithashtu ve ne dukje se jam i informuar se kontrolluesi i te dhenave te mia personale, perfshire ketu edhe te dhenat e mia biometrike, te specifikuara ne kete pelqim, eshte Kredo.al dhe UAB “Ondato“ do te procesoje te dhenat e mia personale derisa te perfundoje procedura e identifikimit ne distance dhe te dhenat do te tranferohen tek Kredo.al. Une gjithashtu deklaroj se jam i informuar dhe dakortesoj qe te dhenat e mia personale te perfituara per identifikimin ne distance dhe per qellimet e tij, mund te ruhen nga UAB “Ondato“ per nje periudhe me te gjate kohore sesa duhet per te perfunduar identifikimi ose transmetimi i rezultateve te tij tek Kredo.al, por vetem me kerkese te Kredo.al ose  UAB Ondato\'s contractual obligation to the Service Provider, por jo me gjate sesa eshte percaktuar ne kontraten e nenshkruar ndermjet UAB “Ondato“ dhe Kredo.al ose te kerkuar nga Kredo.al. Une jam i informuar, se une mund te paraqese kerkese ne lidhje me te dhenat e mia personale, per nje infromacion me te detajuar tek info@ondato.com. Me ane te kesaj, deklaroj dhe konfirmoj, qe te gjitha te dhenat personale qe une do te siguroj per identifikimin ne distance te identitetit tim, jane te sakta, dhe dokumenti te cilin do te perdor per kete qellim nuk eshte fallso por i vlefshem.</string>
+    <string name="ondato_consent_agree">Jam Dakord</string>
+    <string name="ondato_consent_disagree">Nuk jam dakord</string>
+    <string name="ondato_capture_id_card_front_instructions_description">Ju lutem te tregoni anen e perparme te kartes suaj te identitetit ne zonen e percaktuar dhe shtypni butonin \"Capture\". Dokumenti duhet te jete i qarte, jo i turbullt ose i pikselizuar</string>
+    <string name="ondato_capture_id_card_front_instructions_title">Ju lutem te fotografoni anen e perparme te kartes se identitetit</string>
+    <string name="ondato_capture_id_card_back_instructions_title">Ju lutem te fotografoni anen e pasme te kartes suaj te identitetit</string>
+    <string name="ondato_capture_id_card_back_title">Ju lutem te fotografoni anen e pasme te kartes suaj te identitetit</string>
+    <string name="ondato_capture_id_card_back_instructions_description">Ju lutem te vendosni anen e pasme te kartes suaj te ID ne zonen e percaktuar dhe shtyp butonin \"Capture\". Sigurohu qe shiriti i sigurise eshte i qarte dhe dokumenti nuk eshte i turbullt ose i pikselizuar</string>
+    <string name="ondato_capture_selfie_with_document_instructions_title">Fotografoni veten duke mbajtur dokumentin </string>
+    <string name="ondato_capture_selfie_with_document_instructions_description">Mbani dokumentin afër fytyrës ndërsa bëni fotografinë  </string>
+    <string name="ondato_capture_driver_license_front_instructions_title">Ju lutem te fotografoni anen e pasme te kartes suaj te identitetit</string>
+    <string name="ondato_capture_driver_license_front_instructions_description">"Please show the front side of driving license in the marked area and press the button \"Capture\". Photo of driving license should be clearly visible, not blurry or pixelated"</string>
+    <string name="ondato_capture_driver_license_back_instructions_title">Please capture the back side of driving license</string>
+    <string name="ondato_capture_driver_license_back_title">Please capture the back side of driving license</string>
+    <string name="ondato_capture_driver_license_back_instructions_description">Please show the back side of driving license in the marked area and press the button \"Capture\". Driving license should be clearly visible, not blurry or pixelated</string>
+    <string name="ondato_capture_passport_front_instructions_title">Ju lutem fotografoni faqen kryesore te dokumentit i cili permban edhe shiritin e sigurise MRZ</string>
+    <string name="ondato_capture_instructions_mistakes">Gabimet kryesore:</string>
+    <string name="ondato_capture_instructions_too_blurry">Shumë e turbullt</string>
+    <string name="ondato_capture_instructions_too_small">Shumë e vogël</string>
+    <string name="ondato_capture_instructions_bad_lighting">Ndriçim i keq</string>
+    <string name="ondato_capture_instructions_not_neutral">Nuk është fytyrë neutrale</string>
+    <string name="ondato_capture_instructions_too_dark">Shumë e errët</string>
+    <string name="ondato_capture_check_taken_photo">Ju lutem, shikoni foton e skanuar</string>
+    <string name="ondato_capture_check_taken_photo_description">Sigurohuni që fotoja në dokumentin e skanuar është qartësisht e dukshme dhe të dhënat janë të lexueshme. Nëse mendoni se cilësia e imazhit është e pranueshme, ju lutem kliko butonin \"Vazhdo\"</string>
+    <string name="ondato_capture_yourself_with_document_title">Fotografoni veten duke mbajtur dokumentin </string>
+    <string name="ondato_capture_check_taken_photo_with_document">Ju lutem, kontrolloni foton e bërë</string>
+    <string name="ondato_capture_check_taken_photo_with_document_description">Sigurohuni që fotoja të jetë e pastër</string>
+    <string name="ondato_capture_face_instructions_title">Ju lutemi fotografoni fytyrën</string>
+    <string name="ondato_capture_face_instructions_description">Vendoseni fytyrën tuaj brenda kornizës dhe sigurohuni që fytyra të jetë e dukshme dhe e ndriçuar në mënyrë të njëtrajtshme.</string>
+    <string name="ondato_capture_passport_front_instructions_description">Ju lutem tregoni anen e dokumentit i cili ka shiritin e sigurise MRZ dhe shtyp butonin \"Capture\". Dokumenti duhet te jete i qarte, jo i turbullt ose i pikselizuar.</string>
+
+    <string name="FailedRule_PersonPhotoContainsFace_title">Procesi i njohjes se fotografise deshtoi</string>
+    <string name="FailedRule_DocContainsFace_title">Procesi i njohjes se fytyres ne dokument deshtoi</string>
+    <string name="FailedRule_DocContainsMrz_title">Procesi i fotografimit te dokumentit deshtoi</string>
+    <string name="FailedRule_PersonAndDocPhotoMatch_title">Procesi i krahasimit te fotos se dokumentit me foton e fytyres deshtoi</string>
+    <string name="FailedRule_PersonAndDocPhotoMatchScoreTooHigh_title">Procesi i njohjes se fotografise se fytyres ne dokument deshtoi</string>
+    <string name="FailedRule_DocExpireDateInFuture_title">Dokument i skaduar</string>
+    <string name="FailedRule_PersonAndDocumentPersonCodeMatch_title">Procesi i krahasimit te numrit personal ne dokumentin tuaj dhe ne rregjistrim deshtoi</string>
+    <string name="FailedRule_PersonFaceOrDocIsMonochrome_title">Ju informojme se ju duhet te fotografoni dokumentin tuaj aktual. Dokumenti juaj duhet te shihet qarte, ne nje ambient te ndricuar, jo i turbullt ose i pikselizuar</string>
+    <string name="FailedRule_DocumentContainsBothSides_title">Anet e dokumentave te perziera</string>
+    <string name="FailedRule_ContainsMultipleFaces_title">Ju informojme se identifikimi duhet te kryhet vetem nga mbajtesi i dokumentit</string>
+    <string name="FailedRule_PersonFoundInComplyAdvantage_title">Nje person tjeter me te njejtin emer gjendet ne listen e sanksioneve</string>
+    <string name="FailedRule_ContainsCelebrity_title">Ne njeren nga fotografite e bashkangjitura eshte vene re nje person tjeter. Ju informojme se ju duhet te fotografoni veten dhe dokumentin tuaj personal</string>
+    <string name="FailedRule_LostAndStolen_title">Dokumenti juaj gjendet ne listen e dokumentave te humbur ose te vjedhur</string>
+    <string name="FailedRule_PersonPhotoContainsFace_subtitle">Fytyra juaj duhet te shihet qarte, ne nje ambient te ndricuar dhe jo te paqarte</string>
+    <string name="FailedRule_DocContainsFace_subtitle">Ju lutem te tregoni anen e dokumentit ne te cilin ndodhet foto juaj. Dokumenti juaj duhet te shihet qarte, ne nje ambient te ndriccuar dhe jo i turbullt ose i pikselizuar.</string>
+    <string name="FailedRule_DocContainsMrz_subtitle">Nxjerrja e zones MRZ deshtoi. Ju lutem siguroni nje foto te faqes se dokumentit i cili ka shiritin MRZ. Dokumenti juaj duhet te shihet qarte, ne nje ambient te ndricuar, jo i turbullt ose i pikselizuar</string>
+    <string name="FailedRule_PersonAndDocPhotoMatch_subtitle">Ju lutem te siguroheni se foto e fytyres suaj eshte e njejte me foton ne dokumentin tuaj. Hiqni syzet ose aksesore te tjere nga fytyra</string>
+    <string name="FailedRule_PersonAndDocPhotoMatchScoreTooHigh_subtitle">Ju lutem siguroni nje foto te faqes se dokumentit i cili ka foton tuaj. Dokumenti juaj duhet te shihet qarte, ne nje ambient te ndricuar, jo i turbullt ose i pikselizuar.</string>
+    <string name="FailedRule_DocExpireDateInFuture_subtitle">Dokumenti i bashkangjitur eshte i skaduar ose data e perfundimit te afatit nuk eshte gjendur</string>
+    <string name="FailedRule_PersonAndDocumentPersonCodeMatch_subtitle">Ju lutem te bashkangjisni dokumentin me te cilin keni rregjistruar te dhenat gjate rregjistrimit.</string>
+    <string name="FailedRule_PersonFaceOrDocIsMonochrome_subtitle">Ju informojme se ju duhet te fotografoni dokumentin tuaj aktual. Dokumenti juaj duhet te shihet qarte, ne nje ambient te ndricuar, jo i turbullt ose i pikselizuar</string>
+    <string name="FailedRule_DocumentContainsBothSides_subtitle">Ju keni bashkangjitur foto te dy dokumenteve te ndryshem. Ju informojme se ju duhet te bashkangjisni foto te se njejtit dokument nga te dyja anet.</string>
+    <string name="FailedRule_ContainsMultipleFaces_subtitle">Ju informojme se identifikimi duhet te kryhet vetem nga mbajtesi i dokumentit.</string>
+    <string name="FailedRule_PersonFoundInComplyAdvantage_subtitle">Ne do te shqyrtojme rastin tuaj manualisht dhe do te informojme kompanine per rezultatet. Ky proces do te zgjase disa minuta</string>
+    <string name="FailedRule_ContainsCelebrity_subtitle">Ne njeren nga fotografite e bashkangjitura eshte vene re nje person tjeter. Ju informojme se ju duhet te fotografoni veten dhe dokumentin tuaj personal</string>
+    <string name="FailedRule_LostAndStolen_subtitle">Ju lutem shtypni \"Provoni perseri\" dhe siguroni nje dokument tjeter</string>
+
+    <!--FaceTec-->
+    <string name="FaceTec_feedback_center_face">Vendosni fytyren tuaj ne qender</string>
+    <string name="FaceTec_action_continue">VAZHDO</string>
+    <string name="FaceTec_action_im_ready">UNE JAM GATI</string>
+    <string name="FaceTec_action_try_again">PROVO PËRSËRI</string>
+    <string name="FaceTec_camera_permission_header">Aktivizo kamerën</string>
+    <string name="FaceTec_camera_permission_message_enroll">Lejet e kamerës jo aktive.<br/> Kontrollo cilësimet e sistemit tënd operativ dhe shfletuesit.</string>
+    <string name="FaceTec_camera_permission_message_auth">Your camera permissions are disabled. Tap below to edit your settings.</string>
+    <string name="FaceTec_camera_permission_enable_camera">ENABLE CAMERA</string>
+    <string name="FaceTec_camera_permission_launch_settings">LAUNCH SETTINGS</string>
+    <string name="FaceTec_feedback_face_not_found">Vendosni fytyren tuaj brenda kornizes</string>
+    <string name="FaceTec_feedback_face_not_looking_straight_ahead">Shikoni drejt perpara</string>
+    <string name="FaceTec_feedback_face_not_upright">Mbani koken drejt</string>
+    <string name="FaceTec_feedback_hold_steady">Qendroni pa levizur</string>
+    <string name="FaceTec_feedback_move_phone_away">Largohuni pak</string>
+    <string name="FaceTec_feedback_move_phone_closer">Afrohuni me prane</string>
+    <string name="FaceTec_feedback_move_phone_even_closer">Afrohuni me prane</string>
+    <string name="FaceTec_feedback_move_phone_to_eye_level">Vendosni telefonin ne nivelin e syve</string>
+    <string name="FaceTec_feedback_use_even_lighting">Vendosni burimin e drites perballe jush</string>
+    <string name="FaceTec_instructions_header_lighting">Vendosni burimin e drites perballe jush</string>
+    <string name="FaceTec_instructions_header_face_angle">Please Hold Camera\nAt Eye Level</string>
+    <string name="FaceTec_instructions_header_ready_1">Behuni gati</string>
+    <string name="FaceTec_instructions_header_ready_2">per videon selfie</string>
+    <string name="FaceTec_instructions_message_ready">Ju lutem vendoseni fytyren\ntuaj ne kornizen ovale te vogel, me pas ne kornizen ovale te madhe</string>
+    <string name="FaceTec_result_facescan_upload_message"><strong>Ju lutemi mbani këtë dritare aktive.<br/>Mos ndërroni skedat ose mbyllni dritaren</strong><br/>Duke bashkangjitur <br/>Encrypted<br/>3D FaceMap</string>
+    <string name="FaceTec_result_success_message">Suksese!</string>
+    <string name="FaceTecRetryReasonGeneric_title">Ta provojme serisht</string>
+    <string name="FaceTecRetryReasonGeneric_subtitle">We kindly ask to make sure that your face is not obstructed by any items and you are not making any unusual facial expresions during identification</string>
+    <string name="FaceTecRetryReasonBadLighting_title">Poor photo lighting</string>
+    <string name="FaceTecRetryReasonBadLighting_subtitle">Por me pare, Ju lutem te shikoni foton tuaj dhe rregulloni mjedisnin perreth</string>
+    <string name="FaceTecRetryReasonFaceAngle_title">Invalid face submission format</string>
+    <string name="FaceTecRetryReasonFaceAngle_subtitle">We kindly ask to make sure that your face fits in the marked zone properly. You must look straight into the camera</string>
+    <string name="FaceTecRetryReasonBadLightingFailureToAcquire_title">Bright lighting surrounding</string>
+    <string name="FaceTecRetryReasonBadLightingFailureToAcquire_subtitle">Please be informed that during your identification harsh lighting surrounding was detected around your face. We kindly ask to make sure that your surrounding is not too bright</string>
+    <string name="FaceTec_instructions_message_ready_1">Vendose fytyrën në formën vezake</string>
+    <string name="FaceTec_instructions_message_ready_2">""</string>
+    <string name="FaceTec_presession_hold_steady_1">Qëndro pa lëvizur për: 1</string>
+    <string name="FaceTec_presession_hold_steady_2">Qëndro pa lëvizur për: 2</string>
+    <string name="FaceTec_presession_hold_steady_3">Qëndro pa lëvizur për: 3</string>
+    <string name="FaceTec_presession_frame_your_face">@string/FaceTec_instructions_message_ready_1</string>
+    <string name="FaceTec_presession_neutral_expression">Pozicion neutral, mos buzëqesh</string>
+    <string name="FaceTec_presession_position_face_straight_in_oval">Shiko drejt para</string>
+    <string name="FaceTec_presession_remove_dark_glasses">Hiq syzet e errëta</string>
+    <string name="FaceTec_presession_brighten_your_environment">Ndriço mjedisin</string>
+    <string name="FaceTec_presession_conditions_too_bright">Mjedisi shumë i ndritshëm</string>
+    <string name="FaceTec_presession_eyes_straight_ahead">Shiko drejt para</string>
+    <string name="FaceTec_retry_header">Ta provojme serisht</string>
+    <string name="FaceTec_retry_ideal_image_label">Qendrimi ideal</string>
+    <string name="FaceTec_retry_instruction_message_1">Mos qeshni, qendroni neutral</string>
+    <string name="FaceTec_retry_instruction_message_2">Asnje zhurme ose ndricim te tepruar</string>
+    <string name="FaceTec_retry_instruction_message_3">Shumë e paqartë, pastro aparatin</string>
+    <string name="FaceTec_retry_subheader_message">Por me pare, Ju lutem te shikoni foton tuaj dhe rregulloni mjedisnin perreth</string>
+    <string name="FaceTec_retry_your_image_label">Selfie Juaj</string>
+</resources>
