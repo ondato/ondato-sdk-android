@@ -56,6 +56,7 @@ Create an `OndatoConfig` using your username, along with the password, choose mo
             .setDriverLicenseBacksideRequired(true) //default is false
             .setStartScreenProvider { callback -> CustomStartFragment.newInstance(callback) }
             .setSuccessScreenProvider { callback -> CustomSuccessFragment.newInstance(callback) }
+            .showIdentificationWaitingScreen(true) // default is true
             .build()
 
 ```
