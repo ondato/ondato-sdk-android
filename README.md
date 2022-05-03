@@ -20,6 +20,7 @@ Add repository to project level build.gradle file:
 ```
 allprojects {
     repositories {
+        jcenter()
         maven { url "https://raw.githubusercontent.com/ondato/ondato-sdk-android/main/repos/" }
     }
 }
@@ -30,7 +31,7 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk:1.8.6"
+    implementation "com.kyc.ondato:sdk:1.8.6.1"
 }
 ```         
 
