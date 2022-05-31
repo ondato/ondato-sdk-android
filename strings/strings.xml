@@ -21,6 +21,8 @@
     <string name="ondato_language_ru" translatable="false">Pусский</string>
     <string name="ondato_language_ru_short" translatable="false">RU</string>
     <string name="ondato_language_sq" translatable="false">Shqip</string>
+    <string name="ondato_language_bg" translatable="false">Български</string>
+    <string name="ondato_language_bg_short" translatable="false">BG</string>
     <string name="ondato_language_system" translatable="false">System</string>
     <string name="ondato_language_sq_short" translatable="false">SQ</string>
 
