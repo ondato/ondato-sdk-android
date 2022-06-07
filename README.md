@@ -31,7 +31,7 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk:1.8.7"
+    implementation "com.kyc.ondato:sdk:1.8.8"
 }
 ```         
 
@@ -70,7 +70,7 @@ In case, Passive Liveness check is configured, please, contact Ondato support te
 
 ```kotlin
         Ondato.init(config)
-        Ondato.starIdentification(this, object : Ondato.ResultListener {
+        Ondato.starIdentification(applicationContext, object : Ondato.ResultListener {
             override fun onSuccess(identificationId: String?) {
                 //Success
             }
