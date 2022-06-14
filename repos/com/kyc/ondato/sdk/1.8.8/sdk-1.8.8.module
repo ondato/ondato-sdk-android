@@ -27,10 +27,10 @@
           "name": "sdk-1.8.8.aar",
           "url": "sdk-1.8.8.aar",
           "size": 1502024,
-          "sha512": "c802478deb30215e6160bf41231f6f8f1f435449324515eb5d6f803c13364f81cb04f6c016f6aaefba983262ad2087cd4d21f504087f6a0c488b2df83010ce20",
-          "sha256": "e649dedaae7429245c9133094ae4c66b93ba87523d04058ff2c1b03ee86262ac",
-          "sha1": "d372794e0b8ed721c2819af97ab8d492261f1e44",
-          "md5": "4de42437069a31038f164c18c86e92a7"
+          "sha512": "ca3f3fd57b126a8c74a705ad1a16ecd3e4c926219318184530754a022ff4396767c7e6afac88ce05c00fefabbd7f83cdc287ca7e56fccc09a13784ffbaa6cb4e",
+          "sha256": "b87728469b9c94ea0e34f5c3932cb290f089f2df7f0542a221202f6c1207d65b",
+          "sha1": "33b0629c9c2f61cfde2ee35497e0ef1bece451ef",
+          "md5": "13859fc4734315d67d0e6d4b43f008c2"
         }
       ]
     },
@@ -273,10 +273,10 @@
           "name": "sdk-1.8.8.aar",
           "url": "sdk-1.8.8.aar",
           "size": 1502024,
-          "sha512": "c802478deb30215e6160bf41231f6f8f1f435449324515eb5d6f803c13364f81cb04f6c016f6aaefba983262ad2087cd4d21f504087f6a0c488b2df83010ce20",
-          "sha256": "e649dedaae7429245c9133094ae4c66b93ba87523d04058ff2c1b03ee86262ac",
-          "sha1": "d372794e0b8ed721c2819af97ab8d492261f1e44",
-          "md5": "4de42437069a31038f164c18c86e92a7"
+          "sha512": "ca3f3fd57b126a8c74a705ad1a16ecd3e4c926219318184530754a022ff4396767c7e6afac88ce05c00fefabbd7f83cdc287ca7e56fccc09a13784ffbaa6cb4e",
+          "sha256": "b87728469b9c94ea0e34f5c3932cb290f089f2df7f0542a221202f6c1207d65b",
+          "sha1": "33b0629c9c2f61cfde2ee35497e0ef1bece451ef",
+          "md5": "13859fc4734315d67d0e6d4b43f008c2"
         }
       ]
     }
