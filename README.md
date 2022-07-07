@@ -31,7 +31,7 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk:1.8.8"
+    implementation "com.kyc.ondato:sdk:1.8.9"
 }
 ```         
 
@@ -105,6 +105,12 @@ Ondato Android SDK already comes with out-of-the-box translations for the follow
 - Russian (ru) 🇷🇺
 - Albanian (sq) 🇦🇱
 - Bulgarian (bg) 🇧🇬
+- Spanish (es) 🇪🇸
+- French (fr) 🇫🇷
+- Italian (it) 🇮🇹
+- Romanian (ro) 🇷🇴
+- Greek (el) 🇬🇷
+- Dutch (nl) 🇳🇱
 - System ⚙️ (if device language is not translated, everything will be in English) 
 
 You can also **provide your own translations** by overriding [Ondato's string keys](https://github.com/ondato/ondato-sdk-android/blob/main/strings/strings.xml) in your `strings.xml`.
