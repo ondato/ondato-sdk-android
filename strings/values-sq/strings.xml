@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string name="ondato_start_identification_title">Mirë se vini në procesin e verifikimit të identitetit</string>
     <string name="ondato_start_identification_description">Për të vazhduar përdorimin e këtij shërbimi, duhet të vërtetoni se i plotësoni kërkesat. Procesi i verifikimit përbëhet nga 4 hapa</string>
@@ -37,12 +37,12 @@
     <string name="ondato_error_internal_server_error_message">INTERNAL SERVER ERROR</string>
     <string name="ondato_error_connection_failed">CONNECTION ERROR</string>
     <string name="ondato_error_server_is_down_message">SERVER IS DOWN</string>
-    <string name="ondato_error_default_title">Oops...</string>
+    <string name="ondato_error_default_title">Oops…</string>
     <string name="ondato_error_timeout_message">Sesioni perfundoi</string>
     <string name="ondato_start_button">Fillojme</string>
     <string name="ondato_error_something_wrong_title">Ka ndodhur Error</string>
     <string name="ondato_consent_title">Pelqimi per procesimin e te dhenave personale</string>
-    <string name="ondato_consent_terms">Ne menyre qe te perfitoj sherbimin nga Kredo.al, me kete pelqim une shpreh dakortesine time qe UAB “Ondato“ do te marre dhe menaxhoje te dhenat e mia personale, duke perfshire edhe te dhenat e mia biometrike, te marra gjate identifikimit ne distance te identitetit tim duke marre dhe/ose filmuar imazhe live te fytyres sime, identitetin e personit tim ose dokumentin e perdorur per te identifikuar ate dhe/ose imazhet e tyre dhe te dhenat personale qe kane ato dhe/ose kontrolli ne rregjistrin e popullsise: imazhi i fytyres sime, emer, mbiemer, kombesia, gjinia, kodi personal, dita e lindjes, numrat e identifikimit qe po perdoret, data e levrimit dhe vlefshmeria, firma ime, dhe transferimi i ketyre te dhenave te Kredo.al. Une gjithashtu ve ne dukje se jam i informuar se kontrolluesi i te dhenave te mia personale, perfshire ketu edhe te dhenat e mia biometrike, te specifikuara ne kete pelqim, eshte Kredo.al dhe UAB “Ondato“ do te procesoje te dhenat e mia personale derisa te perfundoje procedura e identifikimit ne distance dhe te dhenat do te tranferohen tek Kredo.al. Une gjithashtu deklaroj se jam i informuar dhe dakortesoj qe te dhenat e mia personale te perfituara per identifikimin ne distance dhe per qellimet e tij, mund te ruhen nga UAB “Ondato“ per nje periudhe me te gjate kohore sesa duhet per te perfunduar identifikimi ose transmetimi i rezultateve te tij tek Kredo.al, por vetem me kerkese te Kredo.al ose  UAB Ondato\'s contractual obligation to the Service Provider, por jo me gjate sesa eshte percaktuar ne kontraten e nenshkruar ndermjet UAB “Ondato“ dhe Kredo.al ose te kerkuar nga Kredo.al. Une jam i informuar, se une mund te paraqese kerkese ne lidhje me te dhenat e mia personale, per nje infromacion me te detajuar tek info@ondato.com. Me ane te kesaj, deklaroj dhe konfirmoj, qe te gjitha te dhenat personale qe une do te siguroj per identifikimin ne distance te identitetit tim, jane te sakta, dhe dokumenti te cilin do te perdor per kete qellim nuk eshte fallso por i vlefshem.</string>
+    <string name="ondato_consent_terms">Në mënyrë që të përfitoj shërbimin nga ofruesi i shërbimit përmes dhënies së këtij pëlqimi unë  pranoj  se  UAB  “Ondato“  do  të  marrë  dhe  menaxhojë  të  dhënat  e  mia  personale,  duke përfshirë  edhe  të  dhënat  e  mia  biometrike,  të  marra  gjatë  identifikimit  në  distancë  të identitetit  tim,  duke  marrë  dhe/ose  filmuar  imazhe  direkt  të  fytyrës  sime,  identitetin  e personit tim ose dokumentin e përdorur për të identifikuar atë dhe/ose imazhet e tyre dhe të dhënat  personale  që  kanë  ato  dhe/ose  kontrolli  në  regjistrin  e  popullsisë:  imazhi  i  fytyrës sime,  emër,  mbiemër,  kombësia,  gjinia,  kodi  personal,  datëlindja,  numrat  e  identifikimit  që po përdoren, data e lëvrimit dhe vlefshmëria, firma ime, dhe transferimi i këtyre të dhënave tek  ofruesit  të  shërbimit.  Unë  gjithashtu  vë  në  dukje  se  jam  i  informuar  se  kontrolluesi  i  të dhënave të mia personale, përfshirë këtu edhe të dhënat e mia biometrike, të specifikuara në këtë  pëlqim,  është  ofruesi  i  shërbimit  dhe  UAB  “Ondato“  që  do  të  përpunojnë  të  dhënat  e mia personale derisa të përfundojë procedura e identifikimit në distancë dhe të dhënat do të transferohen tek ofruesi i shërbimit. Unë gjithashtu deklaroj se jam i informuar dhe pranoj që të dhënat e mia personale të përfituara për identifikimin në distancë dhe për qëllimet e tij, mund  të  ruhen  nga  UAB  “Ondato“  për  një  periudhë  më  të  gjatë  kohore,  sesa  duhet  për  të përfunduar  identifikimin  ose  transmetimin  e  rezultateve  të  tij  tek  ofruesi  i  shërbimit,  por vetëm me kërkesë tek ofruesi i shërbimit ose sipas detyrimeve kontraktuale të UAB "Ondato" ndaj ofruesit të shërbimit-, por jo më gjatë sesa është përcaktuar në kontratën e nënshkruar ndërmjet UAB “Ondato“ dhe ofruesi i shërbimit ose të kërkuar nga ofruesi i shërbimit. Unë jam i informuar, se mund të paraqes një kërkesë në lidhje me të dhënat e mia personale, për një informacion më të detajuar në adresën info@ondato.com. Me anë të kësaj, deklaroj dhe konfirmoj, se të gjitha të dhënat personale që   do të siguroj për identifikimin në distance të identitetit tim, janë të sakta, dhe dokumenti që do të përdor për këtë qëllim nuk është i rremë, por i vlefshëm.</string>
     <string name="ondato_consent_agree">Jam Dakord</string>
     <string name="ondato_consent_disagree">Nuk jam dakord</string>
     <string name="ondato_capture_id_card_front_instructions_description">Ju lutem te tregoni anen e perparme te kartes suaj te identitetit ne zonen e percaktuar dhe shtypni butonin \"Capture\". Dokumenti duhet te jete i qarte, jo i turbullt ose i pikselizuar</string>
@@ -53,7 +53,7 @@
     <string name="ondato_capture_selfie_with_document_instructions_title">Fotografoni veten duke mbajtur dokumentin </string>
     <string name="ondato_capture_selfie_with_document_instructions_description">Mbani dokumentin afër fytyrës ndërsa bëni fotografinë  </string>
     <string name="ondato_capture_driver_license_front_instructions_title">Ju lutem te fotografoni anen e pasme te kartes suaj te identitetit</string>
-    <string name="ondato_capture_driver_license_front_instructions_description">"Please show the front side of driving license in the marked area and press the button \"Capture\". Photo of driving license should be clearly visible, not blurry or pixelated"</string>
+    <string name="ondato_capture_driver_license_front_instructions_description">Please show the front side of driving license in the marked area and press the button \"Capture\". Photo of driving license should be clearly visible, not blurry or pixelated</string>
     <string name="ondato_capture_driver_license_back_instructions_title">Please capture the back side of driving license</string>
     <string name="ondato_capture_driver_license_back_title">Please capture the back side of driving license</string>
     <string name="ondato_capture_driver_license_back_instructions_description">Please show the back side of driving license in the marked area and press the button \"Capture\". Driving license should be clearly visible, not blurry or pixelated</string>
@@ -65,14 +65,13 @@
     <string name="ondato_capture_instructions_not_neutral">Nuk është fytyrë neutrale</string>
     <string name="ondato_capture_instructions_too_dark">Shumë e errët</string>
     <string name="ondato_capture_check_taken_photo">Ju lutem, shikoni foton e skanuar</string>
-    <string name="ondato_capture_check_taken_photo_description">Sigurohuni që fotoja në dokumentin e skanuar është qartësisht e dukshme dhe të dhënat janë të lexueshme. Nëse mendoni se cilësia e imazhit është e pranueshme, ju lutem kliko butonin \"Vazhdo\"</string>
+    <string name="ondato_capture_check_taken_photo_description">Sigurohuni që fotoja në dokumentin e skanuar është qartësisht e dukshme dhe të dhënat janë të lexueshme. Nëse mendoni se cilësia e imazhit është e pranueshme, ju lutem kliko butonin \"Vazhdo\</string>
     <string name="ondato_capture_yourself_with_document_title">Fotografoni veten duke mbajtur dokumentin </string>
     <string name="ondato_capture_check_taken_photo_with_document">Ju lutem, kontrolloni foton e bërë</string>
     <string name="ondato_capture_check_taken_photo_with_document_description">Sigurohuni që fotoja të jetë e pastër</string>
     <string name="ondato_capture_face_instructions_title">Ju lutemi fotografoni fytyrën</string>
     <string name="ondato_capture_face_instructions_description">Vendoseni fytyrën tuaj brenda kornizës dhe sigurohuni që fytyra të jetë e dukshme dhe e ndriçuar në mënyrë të njëtrajtshme.</string>
     <string name="ondato_capture_passport_front_instructions_description">Ju lutem tregoni anen e dokumentit i cili ka shiritin e sigurise MRZ dhe shtyp butonin \"Capture\". Dokumenti duhet te jete i qarte, jo i turbullt ose i pikselizuar.</string>
-
     <string name="FailedRule_PersonPhotoContainsFace_title">Procesi i njohjes se fotografise deshtoi</string>
     <string name="FailedRule_DocContainsFace_title">Procesi i njohjes se fytyres ne dokument deshtoi</string>
     <string name="FailedRule_DocContainsMrz_title">Procesi i fotografimit te dokumentit deshtoi</string>
@@ -99,14 +98,13 @@
     <string name="FailedRule_PersonFoundInComplyAdvantage_subtitle">Ne do te shqyrtojme rastin tuaj manualisht dhe do te informojme kompanine per rezultatet. Ky proces do te zgjase disa minuta</string>
     <string name="FailedRule_ContainsCelebrity_subtitle">Ne njeren nga fotografite e bashkangjitura eshte vene re nje person tjeter. Ju informojme se ju duhet te fotografoni veten dhe dokumentin tuaj personal</string>
     <string name="FailedRule_LostAndStolen_subtitle">Ju lutem shtypni \"Provoni perseri\" dhe siguroni nje dokument tjeter</string>
-
     <!--FaceTec-->
     <string name="FaceTec_feedback_center_face">Vendosni fytyren tuaj ne qender</string>
     <string name="FaceTec_action_continue">VAZHDO</string>
     <string name="FaceTec_action_im_ready">UNE JAM GATI</string>
     <string name="FaceTec_action_try_again">PROVO PËRSËRI</string>
     <string name="FaceTec_camera_permission_header">Aktivizo kamerën</string>
-    <string name="FaceTec_camera_permission_message_enroll">Lejet e kamerës jo aktive.<br/> Kontrollo cilësimet e sistemit tënd operativ dhe shfletuesit.</string>
+    <string name="FaceTec_camera_permission_message_enroll">Lejet e kamerës jo aktive. Kontrollo cilësimet e sistemit tënd operativ dhe shfletuesit.</string>
     <string name="FaceTec_camera_permission_message_auth">Your camera permissions are disabled. Tap below to edit your settings.</string>
     <string name="FaceTec_camera_permission_enable_camera">ENABLE CAMERA</string>
     <string name="FaceTec_camera_permission_launch_settings">LAUNCH SETTINGS</string>
@@ -124,7 +122,7 @@
     <string name="FaceTec_instructions_header_ready_1">Behuni gati</string>
     <string name="FaceTec_instructions_header_ready_2">per videon selfie</string>
     <string name="FaceTec_instructions_message_ready">Ju lutem vendoseni fytyren\ntuaj ne kornizen ovale te vogel, me pas ne kornizen ovale te madhe</string>
-    <string name="FaceTec_result_facescan_upload_message"><strong>Ju lutemi mbani këtë dritare aktive.<br/>Mos ndërroni skedat ose mbyllni dritaren</strong><br/>Duke bashkangjitur <br/>Encrypted<br/>3D FaceMap</string>
+    <string name="FaceTec_result_facescan_upload_message">Ju lutemi mbani këtë dritare aktive.Mos ndërroni skedat ose mbyllni dritarenDuke bashkangjitur Encrypted3D FaceMap</string>
     <string name="FaceTec_result_success_message">Suksese!</string>
     <string name="FaceTecRetryReasonGeneric_title">Ta provojme serisht</string>
     <string name="FaceTecRetryReasonGeneric_subtitle">We kindly ask to make sure that your face is not obstructed by any items and you are not making any unusual facial expresions during identification</string>
@@ -135,7 +133,6 @@
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_title">Bright lighting surrounding</string>
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_subtitle">Please be informed that during your identification harsh lighting surrounding was detected around your face. We kindly ask to make sure that your surrounding is not too bright</string>
     <string name="FaceTec_instructions_message_ready_1">Vendose fytyrën në formën vezake</string>
-    <string name="FaceTec_instructions_message_ready_2">""</string>
     <string name="FaceTec_presession_hold_steady_1">Qëndro pa lëvizur për: 1</string>
     <string name="FaceTec_presession_hold_steady_2">Qëndro pa lëvizur për: 2</string>
     <string name="FaceTec_presession_hold_steady_3">Qëndro pa lëvizur për: 3</string>
@@ -153,4 +150,114 @@
     <string name="FaceTec_retry_instruction_message_3">Shumë e paqartë, pastro aparatin</string>
     <string name="FaceTec_retry_subheader_message">Por me pare, Ju lutem te shikoni foton tuaj dhe rregulloni mjedisnin perreth</string>
     <string name="FaceTec_retry_your_image_label">Selfie Juaj</string>
+    <!--2021-11-25 18:47 >> start-->
+    <string name="ondato_unrelated_photo_primary">Identifikimi juaj refuzohet për shkak të fotografisë që nuk ka lidhje me identifikimin</string>
+    <string name="ondato_data_does_not_match_second">Ju lutemi të kontrolloni informacionin e dhënë në formularin e klientit. Informacioni në formularin e klientit duhet të përputhet me informacionin në dokumentin tuaj.</string>
+    <string name="ondato_incorrect_information_provided_second">Ju lutemi, provoni përsëri procesin ose kontaktoni kujdesin e klientit.</string>
+    <string name="ondato_waiting_page_success_title">Identifikimi juaj u krye me sukses.</string>
+    <string name="ondato_nfc_scan_success_title">Identifikimi juaj u krye me sukses.</string>
+    <string name="ondato_nfc_scan_success_body">Faleminderit për durimin tuaj.</string>
+    <string name="ondato_waiting_page_verify_your_identity">Të dhënat tuaja do të përdoren vetëm për të verifikuar identitetin tuaj.</string>
+    <string name="ondato_waiting_page_facial_photo_obscured">Ne kontrollojmë foton e fytyrës suaj më poshtë.</string>
+    <string name="ondato_prohibited_country_or_state_second">Ju lutemi, për më shumë informacion kontaktoni ofruesin e shërbimit ose provoni sërish me një dokument tjetër.</string>
+    <string name="ondato_underage_person_second">Ne me mirësi si ju të kontaktoni ofruesin e shërbimit për më shumë informacion.</string>
+    <string name="ondato_waiting_page_encrypt_data_for_final_approval">Ne i enkriptojmë të dhënat dhe i transferojmë ato për miratim përfundimtar.</string>
+    <string name="ondato_part_of_document_is_covered_second">Ju lutem te provoni perseri procesin e identifikimit duke u siguruar qe dokumenti eshte lehtesisht i lexueshem dhe nuk ka te dhena te mbuluara.</string>
+    <string name="ondato_waiting_page_check_if_all_photos_uploaded">Ne kontrollojmë që keni siguruar të gjitha fotot e kërkuara.</string>
+    <string name="ondato_blurred_photo_second">Ju lutem te provoni perseri procesin e identifikimit dhe sigurohuni qe te dhenat e dokumentit te identifikimit jane lehtesisht te lexueshme.</string>
+    <string name="ondato_sanctioned_primary">Identifikimi Juaj eshte refuzuar.</string>
+    <string name="ondato_missing_document_photo_second">Ju lutemi te riprovoni procesin e identifikimit dhe te gjithe fotografite e nevojshme te dokumentit tuaj.</string>
+    <string name="ondato_document_not_accepted_primary">Identifikimi juaj refuzohet për shkak të dokumentit i cili është i papranueshëm</string>
+    <string name="ondato_poor_photo_lighting_second">Ju lutem te provoni perseri procesin e identifikimit dhe te siguroheni qe dokumenti ndricohet ne menyre te barabarte.</string>
+    <string name="ondato_waiting_page_biometric_data">Ne krijojmë një model 3D të fytyrës suaj nga të dhënat tuaja biometrike.</string>
+    <string name="ondato_bad_media_format_second">Ju lutem te fotografoni dokumentin tuaj origjinal.</string>
+    <string name="ondato_data_does_not_match_primary">Identifikimi juaj refuzohet për shkak të mospërputhjes së informacionit në dokument dhe formularit të klientit.</string>
+    <string name="ondato_waiting_page_success_body">Faleminderit për durimin tuaj.</string>
+    <string name="ondato_underage_person_primary">Identifikimi juaj refuzohet për shkak të kufizimizit të moshës</string>
+    <string name="ondato_expiration_date_mismatch_primary">Ka nje problem me identifikimin tuaj.</string>
+    <string name="ondato_document_is_expired_second">Ju duhet te fotografoni nje dokument te vlefshem per te perfunduar procesin e identifikimit.</string>
+    <string name="ondato_document_with_non_latin_characters_primary">Identifikimi juaj refuzohet për shkak të llojit të dokumentit që nuk është i pranueshëm</string>
+    <string name="ondato_incorrect_information_provided_primary">Ka nje problem me identifikimin tuaj.</string>
+    <string name="ondato_faces_does_not_match_primary">Identifikimi Juaj eshte refuzuar per shkak te mosperputhjes ndermjet selfie dhe fotos se dokumentit.</string>
+    <string name="ondato_waiting_page_document_facial_image">Ne kontrollojmë nëse fotografia e fytyrës në dokumentin tuaj është qartësisht e dukshme.</string>
+    <string name="ondato_more_than_one_person_second">Procesi i identifikimit duhet te kryhet pa marre pjese persona te tjere ne proces.</string>
+    <string name="ondato_doc_and_bio_age_doesnt_match_second">Ju lutemi, provoni përsëri procesin ose kontaktoni kujdesin e klientit.</string>
+    <string name="ondato_part_of_face_is_covered_primary">Identifikimi juaj refuzohet për shkak të fytyrës që mbulohet.</string>
+    <string name="ondato_waiting_page_authenticity">Ne kontrollojmë vërtetësinë dhe vlefshmërinë e të dhënave.</string>
+    <string name="ondato_name_mismatch_primary">Ka nje problem me identifikimin tuaj.</string>
+    <string name="ondato_duplicated_info_primary">Identifikimi Juaj eshte refuzuar.</string>
+    <string name="ondato_miscellaneous_second">Ju lutem te kontaktoni me Kredo.al per me shume informacion.</string>
+    <string name="ondato_possible_fraud_attempt_second">Ju lutem te kontaktoni me Kredo.al per me shume informacion.</string>
+    <string name="ondato_waiting_page_failure_close_title">Mbyll</string>
+    <string name="ondato_something_went_wrong_second">Provoni sërish.</string>
+    <string name="ondato_doc_and_bio_age_doesnt_match_primary">Ka nje problem me identifikimin tuaj.</string>
+    <string name="ondato_missing_selfie_photo_second">Ju lutem te riprovoni procesin e identifikimit sipas udhezimeve te dhena.</string>
+    <string name="ondato_waiting_page_success_continue_title">VAZHDONI NË %s…</string>
+    <string name="ondato_waiting_page_taking_longer_than_expected">Verifikimi juaj po zgjat më shumë sesa pritej. Mos e mbyllni dritaren, kanë mbetur vetëm disa momente.</string>
+    <string name="ondato_bad_media_format_primary">Identifikimi Juaj eshte refuzuar.</string>
+    <string name="ondato_unrelated_photo_second">Ju duhet te fotografoni nje dokument te vlefshem per te perfunduar procesin e identifikimit.</string>
+    <string name="ondato_waiting_page_ai_check">Inteligjenca Artificiale (IA) krahason përputhjen midis fytyrës suaj dhe dokumentit.</string>
+    <string name="ondato_expiration_date_mismatch_second">Ju lutemi, provoni përsëri procesin ose kontaktoni kujdesin e klientit.</string>
+    <string name="ondato_waiting_page_external_damage">Ne kontrollojmë që dokumenti juaj të mos jetë i dëmtuar nga jashtë dhe nëse të gjitha shenjat e kërkuara janë të dukshme.</string>
+    <string name="ondato_missing_selfie_photo_primary">Identifikimi Juaj eshte refuzuar per arsye se selfie juaj nuk eshte e sakte.</string>
+    <string name="ondato_faces_does_not_match_second">Ju lutemi, provoni sërish procesin e identifikimit ose kontaktoni kujdesin për klientin.</string>
+    <string name="ondato_miscellaneous_primary">Identifikimi Juaj eshte refuzuar.</string>
+    <string name="ondato_part_of_face_is_covered_second">Ju lutemi provoni sërish procesin e identifikimit sipas udhëzimeve të dhëna. Ju lutemi mos e mbuloni fytyrën.</string>
+    <string name="ondato_part_of_document_is_covered_primary">Identifikimi juaj refuzohet për shkak të informacionit të mbuluar në foton e dokumentit</string>
+    <string name="ondato_prohibited_country_or_state_primary">Identifikimi juaj refuzohet për shkak të një vendi ose shteti të ndaluar</string>
+    <string name="ondato_possible_fraud_attempt_primary">Identifikimi Juaj eshte refuzuar.</string>
+    <string name="ondato_waiting_page_scan_document">Ne skanojmë tekstin dhe shenjat e veçanta në dokument.</string>
+    <string name="ondato_poor_photo_quality_second">Ju lutem te provoni perseri procesin e identifikimit dhe te siguroheni qe te dhenat e dokumentit jane te lexueshme qarte, ose ne rast te cilesise se dobet te kameres, Ju lutem te provoni procesin ne nje paisje tjeter.</string>
+    <string name="ondato_something_went_wrong_primary">Dicka shkoi keq.</string>
+    <string name="ondato_waiting_page_encrypt_data">Ne i enkriptojmë të dhënat tuaja dhe i dërgojmë ato për verifikim.</string>
+    <string name="ondato_document_is_expired_primary">Identifikimi juaj refuzohet për shkak të skadimit të dokumentit</string>
+    <string name="ondato_prohibited_nationality_primary">Identifikimi Juaj eshte refuzuar.</string>
+    <string name="ondato_more_than_one_person_primary">Identifikimi juaj refuzohet për shkak të njerëzve të tjerë që marrin pjesë në proces</string>
+    <string name="ondato_name_mismatch_second">Ju lutemi, provoni përsëri procesin ose kontaktoni kujdesin e klientit.</string>
+    <string name="ondato_waiting_page_no_other_person">Ne kontrollojmë foton e fytyrës suaj të fotografuar nga një distancë më e largët.</string>
+    <string name="ondato_waiting_page_documents_clearly_legible">Ne kontrollojmë nëse dokumenti juaj është qartësisht i lexueshëm.</string>
+    <string name="ondato_document_not_accepted_second">Dokumenti i dorezuar eshte i papranueshem. Ju lutem te paraqisni nje pashaporte ose karte identiteti te vlefshme per te perfunduar procesin e identifikimit.</string>
+    <string name="ondato_document_with_non_latin_characters_second">Ju lutem te fotografoni nje dokument te vlefshem dhe te njohur me MRZ (machine readable zone).</string>
+    <string name="ondato_sanctioned_second">Ju lutem te kontaktoni Kredo.al per me shume informacion.</string>
+    <string name="ondato_missing_document_photo_primary">Identifikimi juaj refuzohet për shkak të mungesës së fotografisë së dokumentit</string>
+    <string name="ondato_blurred_photo_primary">Identifikimi juaj refuzohet për shkak të fotografisë së mjegulluar</string>
+    <string name="ondato_prohibited_nationality_second">Ju lutem te kontaktoni Kredo.al per me shume informacion.</string>
+    <string name="ondato_poor_photo_lighting_primary">Identifikimi Juaj eshte refuzuar per shkak te ndricimit te pamjaftueshem ne foto.</string>
+    <string name="ondato_waiting_page_data_in_registers">Ne shikojmë statusin e dokumentit dhe të dhënave tuaja në regjistrat.</string>
+    <string name="ondato_poor_photo_quality_primary">Identifikimi Juaj eshte refuzuar per shkak te cilesise se dobet te fotos.</string>
+    <string name="ondato_waiting_page_failure_try_again_title">Provoje perseri</string>
+    <string name="ondato_waiting_page_document_obscured">Ne kontrollojmë nëse të dhënat në dokumentin tuaj nuk mbulohen nga hijet ose rrezet e dritës.</string>
+    <!--2021-11-25 18:47 >> end-->
+    <!--2021-11-27 17:14 >> start-->
+    <string name="ondato_duplicated_info_second">Përdoruesi ekziston tashmë.</string>
+    <!--2021-11-27 17:14 >> end-->
+    <string name="ondato_start_identification_nfc_step_2">2. Skanoni NFC</string>
+    <string name="ondato_continue_button">Vazhdojme</string>
+    <string name="ondato_start_again_button">Provoje perseri</string>
+    <string name="ondato_capture_mrz_instructions_title">Përgatitni dokumentin tuaj për të kapur zonën MRZ</string>
+    <string name="ondato_capture_mrz_id_instructions_description">Ju lutemi tregoni anën e pasme të kartës suaj të identitetit që përmban zonën MRZ. Dokumenti duhet të jetë qartësisht i dukshëm, jo ​​i turbullt ose i pikseluar.</string>
+    <string name="ondato_capture_nfc_instructions_title">PPërgatitni dokumentin tuaj për skanimin NFC</string>
+    <string name="ondato_capture_nfc_instructions_description">Merrni dokumentin tuaj dhe përgatitni NFC në pajisjen tuaj.</string>
+    <string name="ondato_capture_nfc_settings_instructions_title">Me sa duket nuk mund të vazhdosh pa NFC.</string>
+    <string name="ondato_capture_nfc_settings_instructions_description">Për të vazhduar, duhet të siguroheni që dokumenti ka NFC dhe është aktivizuar në pajisjen tuaj.</string>
+    <string name="ondato_capture_nfc_id_title_initial">Shtoni kartën tuaj të identitetit në pjesën e pasme të telefonit tuaj</string>
+    <string name="ondato_capture_nfc_passport_title_initial">Shtoni faqen e parë të pasaportës në pjesën e pasme të telefonit tuaj</string>
+    <string name="ondato_capture_nfc_description_initial">Mund të provoni ta vendosni kartën tuaj në disa pika të ndryshme.</string>
+    <string name="ondato_capture_nfc_title_scanning">Ju lutemi mbajeni dokumentin në pjesën e pasme të telefonit tuaj.</string>
+    <string name="ondato_capture_nfc_description_scanning">Prisni ju lutem. Procesi mund të zgjasë edhe disa sekonda.</string>
+    <string name="ondato_nfc_off_dialog_title">NFC është i fikur</string>
+    <string name="ondato_nfc_off_dialog_description">Ju lutemi, aktivizoni NFC-në për të vazhduar më tej në proces</string>
+    <string name="ondato_nfc_off_dialog_cancel_button">Anulo</string>
+    <string name="ondato_nfc_off_dialog_settings_button">Cilësimet</string>
+    <string name="ondato_capture_nfc_failure_title">Duket se procesi është ndërprerë.</string>
+    <string name="ondato_capture_nfc_failure_description">Skanimi NFC dështoi.</string>
+    <string name="ondato_capture_mrz_success_title">Kapja e informacionit ishte e suksesshme</string>
+    <string name="ondato_capture_mrz_success_description">Faleminderit për durimin tuaj.</string>
+    <string name="ondato_capture_mrz_failure_title">Duket se procesi është ndërprerë.</string>
+    <string name="ondato_capture_mrz_failure_description">Sigurohuni që dokumenti të jetë qartë i dukshëm, jo ​​shumë i vogël dhe i ndriçuar siç duhet.</string>
+    <string name="ondato_try_alternative">Provoni alternativën</string>
+    <string name="ondato_passport_scan_help_title">Nëse keni hasur vështirësi për të hyrë në NFC, provoni këto metoda:</string>
+    <string name="ondato_passport_scan_help_step1">Provoni të lexoni faqen e fundit të dokumentit.</string>
+    <string name="ondato_passport_scan_help_step2">Provoni të lexoni faqen e fotografisë së dokumentit.</string>
+    <string name="ondato_passport_scan_help_step3">Nëse ka ndonjë mbulesë në dokument, hiqeni atë.</string>
 </resources>
