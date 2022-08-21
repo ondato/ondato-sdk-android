@@ -83,6 +83,9 @@ In case, Passive Liveness check is configured, please, contact Ondato support te
 
 Congratulations! You have successfully started the flow. 
 
+## Getting logs
+
+To get Ondato logs as `String` use `Ondato.getLogs()`.
 
 ## Customising SDK
 
