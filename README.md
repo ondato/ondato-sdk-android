@@ -1,5 +1,11 @@
 # Ondato Android SDK
 
+## Table of contents
+
+* [Overview](#overview)
+* [Getting logs](#getting-logs)
+* [Customizing SDK](#customizing-sdk)
+
 ## Overview
 
 This SDK provides a drop-in set of screens and tools for Android applications to allow capturing of identity documents and face photos/live videos for the purpose of identity verification. The SDK offers a number of benefits to help you create the best onboarding/identity verification experience for your customers:
@@ -31,7 +37,7 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk:1.8.10"
+    implementation "com.kyc.ondato:sdk:2.0.0"
 }
 ```         
 
@@ -45,6 +51,7 @@ Create an `OndatoConfig` using your username, along with the password, choose mo
             .setIdentificationId("identification id")
             .setCredentials("username", "password")
             .showStartScreen(true) //default is true
+            .showSplashScreen(true) //default is true
             .showConsentScreen(true) //default is true
             .showSelfieWithDocumentScreen(true) //default is true
             .showSuccessScreen(true) //default is true
@@ -70,7 +77,7 @@ In case, Passive Liveness check is configured, please, contact Ondato support te
 
 ```kotlin
         Ondato.init(config)
-        Ondato.starIdentification(applicationContext, object : Ondato.ResultListener {
+        Ondato.startIdentification(applicationContext, object : Ondato.ResultListener {
             override fun onSuccess(identificationId: String?) {
                 //Success
             }
@@ -81,13 +88,13 @@ In case, Passive Liveness check is configured, please, contact Ondato support te
         })
 ```
 
-Congratulations! You have successfully started the flow. 
+Congratulations! You have successfully started the flow.
 
 ## Getting logs
 
 To get Ondato logs as `String` use `Ondato.getLogs()`.
 
-## Customising SDK
+## Customizing SDK
 
 ### 1. Loading Screen
 You can override the default fragment used to show loading state by setting `.setLoadingScreenProvider()` when building config.
@@ -114,12 +121,12 @@ Ondato Android SDK already comes with out-of-the-box translations for the follow
 - Romanian (ro) 🇷🇴
 - Greek (el) 🇬🇷
 - Dutch (nl) 🇳🇱
-- System ⚙️ (if device language is not translated, everything will be in English) 
+- System ⚙️ (if device language is not translated, everything will be in English)
 
 You can also **provide your own translations** by overriding [Ondato's string keys](https://github.com/ondato/ondato-sdk-android/blob/main/strings/strings.xml) in your `strings.xml`.
 
 ### 5. Theme Customization
-In order to enhance the user experience on the transition between your application and the SDK, you can provide some customisation by defining certain colors inside your own colors.xml file:
+In order to enhance the user experience on the transition between your application and the SDK, you can provide some customization by defining certain colors inside your own colors.xml file:
 
     <!-- Ondato's Status Bar -->
     <color name="ondatoColorPrimaryDark">#fd5a28</color>
@@ -173,3 +180,4 @@ In order to enhance the user experience on the transition between your applicati
     <color name="ondatoColorAlmostTransparent2">#CCFFFFFF</color>
     <color name="ondatoColorLanguagesBorder">#E2E2E2</color>>
     <color name="ondatoColorCameraFilter">#65000000</color>
+    <color name="ondatoInputTextBorderColor">#808080</color>
