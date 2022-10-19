@@ -120,6 +120,7 @@
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_title">Lumina este prea puternică </string>
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_subtitle">Lumina din jurul feței a fost prea puternică. Te rugăm să te asiguri că mediul în care te afli nu este prea luminos.</string>
     <string name="FaceTec_instructions_message_ready_1">Poziționează fața în oval</string>
+    <string name="FaceTec_instructions_message_ready_2">Să apeși pe \"SUNT GATA\" &amp; Mișcă-te mai aproape</string>
     <string name="FaceTec_presession_hold_steady_1">Nu te mișca pentru: 1</string>
     <string name="FaceTec_presession_hold_steady_2">Nu te mișca pentru: 2</string>
     <string name="FaceTec_presession_hold_steady_3">Nu te mișca pentru: 3</string>

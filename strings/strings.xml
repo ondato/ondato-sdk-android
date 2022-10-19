@@ -1,13 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="ondato_continue_anyway">Continue anyway</string>
-    <string name="ondato_loading_title">Uploading information</string>
-    <string name="ondato_loading_subtitle">Please wait…</string>
-    <string name="ondato_success_title">Registration successful</string>
-    <string name="ondato_success_subtitle">Once your registration will be processed you will be notified by email.</string>
-    <string name="ondato_close">Close</string>
-    <string name="ondato_button_capture">Capture</string>
-    <string name="ondato_try_again">Try again</string>
-
     <string name="ondato_language_en" translatable="false">English</string>
     <string name="ondato_language_english_short" translatable="false">EN</string>
     <string name="ondato_language_lt" translatable="false">Lietuvių kalba</string>
@@ -37,7 +29,14 @@
     <string name="ondato_language_gr_short" translatable="false">GR</string>
     <string name="ondato_language_nl" translatable="false">Nederlands</string>
     <string name="ondato_language_nl_short" translatable="false">NL</string>
-
+    <string name="ondato_continue_anyway">Continue anyway</string>
+    <string name="ondato_loading_title">Uploading information</string>
+    <string name="ondato_loading_subtitle">Please wait…</string>
+    <string name="ondato_success_title">Registration successful</string>
+    <string name="ondato_success_subtitle">Once your registration will be processed you will be notified by email.</string>
+    <string name="ondato_close">Close</string>
+    <string name="ondato_button_capture">Capture</string>
+    <string name="ondato_try_again">Try again</string>
     <string name="ondato_error_unauthorized_message">UNAUTHORIZED</string>
     <string name="ondato_error_bad_request_message">BAD_REQUEST</string>
     <string name="ondato_error_internal_server_error_message">INTERNAL SERVER ERROR</string>
@@ -46,13 +45,11 @@
     <string name="ondato_error_default_title">Oops…</string>
     <string name="ondato_error_timeout_message">Session ended</string>
     <string name="ondato_start_button">Start</string>
-
     <string name="ondato_error_something_wrong_title">Error occurred</string>
     <string name="ondato_consent_title">Consent for personal data processing</string>
     <string name="ondato_consent_terms">In order to obtain the service from the Service Provider, with this consent I express my agreement that UAB "Ondato" will receive and manage my personal data, including my biometric data, gained from remote identification of my personal identity by taking and/or filming live image of my face, my person\'s identity or the document used to identify it and/or their image and the personal data contained in them and/or check in the population registry: image of my face, name, surname, nationality, gender, personal code, date of birth, numbers of the document that is being used, date of issue and validity, my signature and the transfer of such data to the Service Provider. I also note that I am informed that the controller of my personal data, including my biometric data, specified in this consent is the Service Provider and UAB "Ondato" will process my personal data only until the remote identification procedure is over and the results will be transferred to the Service Provider. I also declare that I am informed and agree that my personal data obtained for remote identification and its purposes may be stored by UAB "Ondato" for longer period of time than it takes for the identification to be completed or transmission of its results to the Service Provider, but only at the request of the Service Provider or UAB Ondato\'s contractual obligation to the Service Provider, but not longer than it is defined in the Contract that was signed between UAB "Ondato" and Service Provider or requested by the Service Provider. I am informed, that I can submit request regarding my personal data for more detailed information at info@ondato.com. Hereby I declare and confirm, that all the personal data I will provide for remote identification of my personal identity purpose, are correct and accurate, and the document, which I will use for this purpose is not false and valid.</string>
     <string name="ondato_consent_agree">I Agree</string>
     <string name="ondato_consent_disagree">Disagree</string>
-
     <string name="ondato_start_identification_title">Welcome to identity\nverification process</string>
     <string name="ondato_start_identification_description">To continue using this service you need to validate that you fit the websites requirements. The verification process consists of 3 steps.</string>
     <string name="ondato_start_identification_step_1">1. Choose a document</string>
@@ -62,7 +59,6 @@
     <string name="ondato_choose_document_passport">Passport</string>
     <string name="ondato_choose_document_id_card">Identity card</string>
     <string name="ondato_choose_document_driving_licence">Driving Licence</string>
-
     <string name="ondato_capture_passport_front_title">Please capture the main document page that contains MRZ zone</string>
     <string name="ondato_capture_id_card_front_title">Please capture the front side of your ID card</string>
     <string name="ondato_capture_id_card_back_title">Please capture the back of identity card</string>
@@ -70,7 +66,6 @@
     <string name="ondato_capture_driver_license_back_title">Please capture the back side of driving license</string>
     <string name="ondato_capture_check_taken_photo">Check the captured image quality</string>
     <string name="ondato_capture_check_taken_photo_description">Make sure that the photo on the captured document is clearly visible &amp; the data is readable. If you believe, that the image quality is acceptable, please click the \"Continue\" button</string>
-
     <string name="ondato_capture_id_card_front_instructions_description">Please show the front side of your ID card in the marked area and press the button \"Capture\". Document should be clearly visible, not blurry or pixelated</string>
     <string name="ondato_capture_id_card_front_instructions_title">Please capture the front of identity card</string>
     <string name="ondato_capture_id_card_back_instructions_title">Please capture the back of identity card</string>
@@ -94,7 +89,6 @@
     <string name="ondato_capture_face_instructions_title">Take a selfie</string>
     <string name="ondato_capture_face_instructions_description">Position your face in the middle of the frame and follow the instructions. Photo should be not blurry and evenly lit.</string>
     <string name="ondato_capture_passport_front_instructions_description">Please show the main document page that contains MRZ zone in the marked area and press \"Capture\". Document page should be clearly visible, not blurry or pixelated.</string>
-
     <string name="FailedRule_PersonPhotoContainsFace_title">Failed to recognise face photo</string>
     <string name="FailedRule_DocContainsFace_title">Failed to recognise face photo in the document</string>
     <string name="FailedRule_DocContainsMrz_title">Failed to capture the document</string>
@@ -121,8 +115,6 @@
     <string name="FailedRule_PersonFoundInComplyAdvantage_subtitle">A person with your given name is found in sanction list. We will review your identification manually and inform the company about the result. This might take couple moments</string>
     <string name="FailedRule_ContainsCelebrity_subtitle">Celebrity has been recognised in one of the picture you have uploaded. Please be informed that you must capture a photo of yourself and your personal document</string>
     <string name="FailedRule_LostAndStolen_subtitle">Your document has been recognized in Lost and Stolen database. Please press "Try again" and provide another document</string>
-
-    <!--FaceTec-->
     <string name="FaceTec_feedback_center_face">Center Your Face</string>
     <string name="FaceTec_action_continue">CONTINUE</string>
     <string name="FaceTec_action_im_ready">I\'M READY</string>
@@ -157,6 +149,7 @@
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_title">Bright lighting surrounding</string>
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_subtitle">Please be informed that during your identification harsh lighting surrounding was detected around your face. We kindly ask to make sure that your surrounding is not too bright</string>
     <string name="FaceTec_instructions_message_ready_1">Frame Your Face in the Oval</string>
+    <string name="FaceTec_instructions_message_ready_2">Press I’m Ready &amp; Move Closer</string>
     <string name="FaceTec_presession_hold_steady_1">Hold Steady For: 1</string>
     <string name="FaceTec_presession_hold_steady_2">Hold Steady For: 2</string>
     <string name="FaceTec_presession_hold_steady_3">Hold Steady For: 3</string>
@@ -174,7 +167,6 @@
     <string name="FaceTec_retry_instruction_message_3">Too Blurry, Clean Your Camera</string>
     <string name="FaceTec_retry_subheader_message">We need a clearer video selfie.</string>
     <string name="FaceTec_retry_your_image_label">Your Selfie</string>
-
     <string name="ondato_unrelated_photo_primary">Your identification is rejected due to submitted unrelated photo.</string>
     <string name="ondato_data_does_not_match_second">We kindly ask you to check information which was provided in the client form. The information on the customer form must match the information on your document.</string>
     <string name="ondato_incorrect_information_provided_second">We kindly ask you to retry the process or contact client support.</string>
@@ -190,6 +182,8 @@
     <string name="ondato_waiting_page_check_if_all_photos_uploaded">We check whether you have provided all the required photos.</string>
     <string name="ondato_blurred_photo_second">We kindly ask you to retry identification process and ensure that document data is clearly readable.</string>
     <string name="ondato_sanctioned_primary">Your identification is rejected.</string>
+    <string name="ondato_transfer_video_call_primary">Your identification is rejected.</string>
+    <string name="ondato_transfer_video_call_second">Please be informed that you are required to perform a live video call</string>
     <string name="ondato_document_not_accepted_primary">Your identification is rejected due to document which is unacceptable.</string>
     <string name="ondato_missing_document_photo_second">We kindly ask you to retry the identification process and capture all necessary pictures of your document</string>
     <string name="ondato_poor_photo_lighting_second">We kindly ask you to retry identification process and ensure that document is evenly lit.</string>
@@ -281,4 +275,9 @@
     <string name="ondato_poor_photo_quality_primary">Your identification is rejected due to poor photo quality.</string>
     <string name="ondato_waiting_page_failure_try_again_title">Try again</string>
     <string name="ondato_waiting_page_document_obscured">We check whether the data in your document is not obscured by shadows or light rays.</string>
+    <string name="ondato_splash_description">We know your customer</string>
+    <string name="ondato_submit_button">Submit</string>
+    <string name="ondato_trn_code">TRN code</string>
+    <string name="ondato_personal_code_screen_title">Please submit your TRN code</string>
+    <string name="ondato_personal_code_screen_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat commodo porta. Phasellus vestibulum enim ac ipsum vestibulum, eget laoreet turpis scelerisque. Morbi egestas ipsum ut posuere vestibulum. Maecenas mollis quis felis et efficitur.</string>
 </resources>

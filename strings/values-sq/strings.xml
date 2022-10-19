@@ -133,6 +133,7 @@
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_title">Bright lighting surrounding</string>
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_subtitle">Please be informed that during your identification harsh lighting surrounding was detected around your face. We kindly ask to make sure that your surrounding is not too bright</string>
     <string name="FaceTec_instructions_message_ready_1">Vendose fytyrën në formën vezake</string>
+    <string name="FaceTec_instructions_message_ready_2">Shtypni butonin \"UNE JAM GATI\" &amp; Afrohuni me prane</string>
     <string name="FaceTec_presession_hold_steady_1">Qëndro pa lëvizur për: 1</string>
     <string name="FaceTec_presession_hold_steady_2">Qëndro pa lëvizur për: 2</string>
     <string name="FaceTec_presession_hold_steady_3">Qëndro pa lëvizur për: 3</string>
@@ -260,4 +261,6 @@
     <string name="ondato_passport_scan_help_step1">Provoni të lexoni faqen e fundit të dokumentit.</string>
     <string name="ondato_passport_scan_help_step2">Provoni të lexoni faqen e fotografisë së dokumentit.</string>
     <string name="ondato_passport_scan_help_step3">Nëse ka ndonjë mbulesë në dokument, hiqeni atë.</string>
+    <string name="ondato_transfer_video_call_primary">Identifikimi juaj refuzohet.</string>
+    <string name="ondato_transfer_video_call_second">Ju lutemi të informoni se ju kërkohet të kryeni një videotelefonatë të drejtpërdrejtë.</string>
 </resources>

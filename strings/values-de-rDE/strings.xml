@@ -85,6 +85,7 @@
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_title">Helle Beleuchtung in der Umgebung</string>
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_subtitle">Bitte beachte, dass während der Identifizierung eine zu Helle Umgebumg um dein Gesicht herum erkannt wurde. Wir bitten dich´ darauf zu achten, dass deine Umgebung nicht zu hell ist.</string>
     <string name="FaceTec_instructions_message_ready_1">Rahmen Sie Ihr Gesicht mit dem Oval ein</string>
+    <string name="FaceTec_instructions_message_ready_2">Drücken Sie die Taste \"Ich bin bereit\" &amp; Näher heranrücken</string>
     <string name="FaceTec_presession_position_face_straight_in_oval">Geradeaus blicken</string>
     <string name="FaceTec_presession_hold_steady_3">Stillhalten für: 3</string>
     <string name="FaceTec_presession_hold_steady_2">Stillhalten für: 2</string>
@@ -247,4 +248,6 @@
     <string name="ondato_passport_scan_help_step1">Versuchen Sie, die letzte Seite des Dokuments zu lesen.</string>
     <string name="ondato_passport_scan_help_step2">Versuchen Sie, die Fotoseite des Dokuments zu lesen.</string>
     <string name="ondato_passport_scan_help_step3">Wenn das Dokument eine Abdeckung aufweist, entfernen Sie diese.</string>
+    <string name="ondato_transfer_video_call_primary">Ihre Identifikation wurde abgewiesen.</string>
+    <string name="ondato_transfer_video_call_second">Wir möchten Sie darauf hinweisen, dass ein Live-Videogespräch erforderlich ist.</string>
 </resources>

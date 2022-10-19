@@ -85,6 +85,7 @@
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_title">Ere valgustus</string>
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_subtitle">Pange tähele, et tuvastamise ajal tuvastati teie näo ümber eredat valgust. Veenduge, et teie ümbrus ei oleks liiga hele</string>
     <string name="FaceTec_instructions_message_ready_1">Sea oma nägu ovaaliga kohakuti</string>
+    <string name="FaceTec_instructions_message_ready_2">Klõpsake nuppu \"Ma olen valmis\" &amp; Liigu lähemale</string>
     <string name="FaceTec_presession_position_face_straight_in_oval">Vaata otse</string>
     <string name="FaceTec_presession_hold_steady_3">Püsi paigal: 3</string>
     <string name="FaceTec_presession_hold_steady_2">Püsi paigal: 2</string>
@@ -247,4 +248,6 @@
     <string name="ondato_passport_scan_help_step1">Proovige lugeda dokumendi viimast lehekülge.</string>
     <string name="ondato_passport_scan_help_step2">Proovige lugeda dokumendi fotolehte.</string>
     <string name="ondato_passport_scan_help_step3">Kui dokumendil on kate, eemaldage see.</string>
+    <string name="ondato_transfer_video_call_primary">Teie identifitseerimine on tagasi lükatud.</string>
+    <string name="ondato_transfer_video_call_second">Olge palun teadlik, et peate tegema reaalajas videokõne.</string>
 </resources>

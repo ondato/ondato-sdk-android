@@ -85,6 +85,7 @@
     <string name="FaceTec_result_facescan_upload_message">Пожалуйста, подождите. Идет загрузка…</string>
     <string name="FaceTec_result_success_message">Лицо идентифицировано</string>
     <string name="FaceTec_instructions_message_ready_1">Поместите лицо в овальную область</string>
+    <string name="FaceTec_instructions_message_ready_2">Нажмите кнопку \"Готов(-а)\" &amp; Приблизьте телефон</string>
     <string name="FaceTec_presession_position_face_straight_in_oval">Смотрите прямо в камеру</string>
     <string name="FaceTec_presession_hold_steady_3">Не двигайтесь: 3</string>
     <string name="FaceTec_presession_hold_steady_2">Не двигайтесь: 2</string>
@@ -247,4 +248,6 @@
     <string name="ondato_passport_scan_help_step1">Попробуйте сканировать последнюю страницу документа.</string>
     <string name="ondato_passport_scan_help_step2">Попробуйте сканировать фото страницы документа.</string>
     <string name="ondato_passport_scan_help_step3">Если на документе есть обложка, снимите ее.</string>
+    <string name="ondato_transfer_video_call_primary">Вашаидентификацияотклонена.</string>
+    <string name="ondato_transfer_video_call_second">Примитексведению,чтовамнеобходимовыполнитьвидеозвонокврежимереальноговремени.</string>
 </resources>

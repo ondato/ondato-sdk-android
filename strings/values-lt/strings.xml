@@ -85,6 +85,7 @@
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_title">Ryškus apšvietimas</string>
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_subtitle">Informuojame, kad jūsų identifikacijos metu yra per ryškus apšvietimas. Maloniai prašome įsitkinti, kad jūsų veidas nėra per ryškiai apšviečiamas aplinkos šviesos</string>
     <string name="FaceTec_instructions_message_ready_1">Įstatykite veidą į rėmėlį</string>
+    <string name="FaceTec_instructions_message_ready_2">Spauskite „Pasiruošęs“ ir priartinkite telefoną</string>
     <string name="FaceTec_presession_position_face_straight_in_oval">Žiūrėkite tiesiai</string>
     <string name="FaceTec_presession_hold_steady_3">Nejudėkite: 3</string>
     <string name="FaceTec_presession_hold_steady_2">Nejudėkite: 2</string>
@@ -247,4 +248,6 @@
     <string name="ondato_passport_scan_help_step1">Pabandykite nuskaityti paskutinį dokumento pusląpį.</string>
     <string name="ondato_passport_scan_help_step2">Pabandykite nuskaityti dokumento puslapį su nuotrauka.</string>
     <string name="ondato_passport_scan_help_step3">Jei ant dokumento yra viršelis, nuimkite jį.</string>
+    <string name="ondato_transfer_video_call_primary">Jūsų tapatybės patvirtinimas pripažintas netinkamu.</string>
+    <string name="ondato_transfer_video_call_second">Informuojame, kad yra reikalingas Jūsų tiesioginis vaizdo skambutis.</string>
 </resources>

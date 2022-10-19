@@ -120,6 +120,7 @@
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_title">Luminosità ambientale elevata</string>
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_subtitle">Tieni presente che durante la tua identificazione è stata rilevata una forte illuminazione intorno al tuo viso. Ti chiediamo di assicurarti che l\'ambiente circostante non sia troppo luminoso</string>
     <string name="FaceTec_instructions_message_ready_1">Inquadra il tuo viso nell\'ovale</string>
+    <string name="FaceTec_instructions_message_ready_2">Ecliccare \"SONO PRONTO\" &amp; Avvicinati</string>
     <string name="FaceTec_presession_hold_steady_1">Tieni premuto per: 1</string>
     <string name="FaceTec_presession_hold_steady_2">Tieni premuto per: 2</string>
     <string name="FaceTec_presession_hold_steady_3">Tieni premuto per: 3</string>

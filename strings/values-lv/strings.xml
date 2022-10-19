@@ -86,6 +86,7 @@
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_title">Spilgts apgaismojums apkārtnē</string>
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_subtitle">Informējam, ka identifikācijas laikā ap jūsu seju tika atklāts spilgts apgaismojums. Lūdzam pārliecināties, ka jūsu apkārtne nav pārāk gaiša</string>
     <string name="FaceTec_instructions_message_ready_1">Ievietojiet seju ovālā</string>
+    <string name="FaceTec_instructions_message_ready_2">Nospiediet “Esmu gatavs” &amp; Pārvietojieties tuvāk</string>
     <string name="FaceTec_presession_position_face_straight_in_oval">Skatieties taisni uz priekšu</string>
     <string name="FaceTec_presession_hold_steady_3">Nekustieties: 3</string>
     <string name="FaceTec_presession_hold_steady_2">Nekustieties: 2</string>
@@ -247,4 +248,6 @@
     <string name="ondato_passport_scan_help_step1">Mēģiniet izlasīt dokumenta pēdējo lappusi.</string>
     <string name="ondato_passport_scan_help_step2">Mēģiniet izlasīt dokumenta fotoattēlu lapu.</string>
     <string name="ondato_passport_scan_help_step3">Ja dokumentam ir vāks, noņemiet to.</string>
+    <string name="ondato_transfer_video_call_primary">Jūsuidentifikācija ir noraidīta.</string>
+    <string name="ondato_transfer_video_call_second">Jums ir jāveic tiešsaistes videozvans.</string>
 </resources>

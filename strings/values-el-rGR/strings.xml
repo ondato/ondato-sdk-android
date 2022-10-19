@@ -120,6 +120,7 @@
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_title">Έντονος φωτισμός γύρω</string>
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_subtitle">Λάβε υπόψιν ότι κατά την ταυτοποίησή σου εντοπίστηκε έντονο φως γύρω από το πρόσωπό σου. Παρακαλώ, βεβαιώσου ότι το περιβάλλον σου δεν είναι πολύ φωτεινό</string>
     <string name="FaceTec_instructions_message_ready_1">Πλαισίωσε το πρόσωπό σου στο οβάλ</string>
+    <string name="FaceTec_instructions_message_ready_2">Πάτησε το κουμπί \"ΕΙΜΑΙ ΕΤΟΙΜΟΣ\". &amp; Ελα πιο κοντά</string>
     <string name="FaceTec_presession_hold_steady_1">Μείνε σταθερός για: 1</string>
     <string name="FaceTec_presession_hold_steady_2">Μείνε σταθερός για: 2</string>
     <string name="FaceTec_presession_hold_steady_3">Μείνε σταθερός για: 3</string>
