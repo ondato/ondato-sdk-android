@@ -89,6 +89,10 @@ In case, Passive Liveness check is configured, please, contact Ondato support te
 
 Congratulations! You have successfully started the flow.
 
+## 4. Demo examples
+
+We have created some demo projects which have above code implemented. You can find these projects in [demos](demos) folder of this repository.
+
 ## Getting logs
 
 To get Ondato logs as `String` use `Ondato.getLogs()`.
