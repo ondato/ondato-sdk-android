@@ -277,7 +277,7 @@
     <string name="ondato_waiting_page_document_obscured">We check whether the data in your document is not obscured by shadows or light rays.</string>
     <string name="ondato_splash_description">We know your customer</string>
     <string name="ondato_submit_button">Submit</string>
-    <string name="ondato_trn_code">TRN code</string>
-    <string name="ondato_personal_code_screen_title">Please submit your TRN code</string>
-    <string name="ondato_personal_code_screen_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat commodo porta. Phasellus vestibulum enim ac ipsum vestibulum, eget laoreet turpis scelerisque. Morbi egestas ipsum ut posuere vestibulum. Maecenas mollis quis felis et efficitur.</string>
+    <string name="ondato_personal_code_screen_title">Please provide your Taxpayer Registration Number (TRN)</string>
+    <string name="ondato_personal_code_screen_description">We need your TRN in order to verify your account. Please enter your TRN as it appears on the official document and double check that it is correct before submitting to avoid delays.</string>
+    <string name="ondato_trn_code">TRN code:</string>
 </resources>
