@@ -1,0 +1,58 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.facetec",
+    "module": "sdk",
+    "version": "9.6.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "sdk-9.6.8.aar",
+          "url": "sdk-9.6.8.aar",
+          "size": 1514,
+          "sha512": "3b7555236c2621814a81e992f1361c85051dcfe78c356e5269c53cc027837657db1cbde5d726d7162923d9c883c5400f476d26742b2bcd5d6dff8192aebdc231",
+          "sha256": "6d5d46f401f116fc679243c48c3d8b02fa7211b4fc6b7d2c2b61f865342a84ec",
+          "sha1": "1abccac200c6b7724f475a35171b73293c742ed7",
+          "md5": "13ded2e58277abebc93a25ca373a26a7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sdk-9.6.8.aar",
+          "url": "sdk-9.6.8.aar",
+          "size": 1514,
+          "sha512": "3b7555236c2621814a81e992f1361c85051dcfe78c356e5269c53cc027837657db1cbde5d726d7162923d9c883c5400f476d26742b2bcd5d6dff8192aebdc231",
+          "sha256": "6d5d46f401f116fc679243c48c3d8b02fa7211b4fc6b7d2c2b61f865342a84ec",
+          "sha1": "1abccac200c6b7724f475a35171b73293c742ed7",
+          "md5": "13ded2e58277abebc93a25ca373a26a7"
+        }
+      ]
+    }
+  ]
+}
