@@ -17,7 +17,7 @@ This SDK provides a drop-in set of screens and tools for Android applications to
 
 \* Note: the SDK is only responsible for capturing and uploading photos/videos. You still need to access the [Ondato API](https://ondato.atlassian.net/wiki/spaces/PUB/pages/2334359560/Customer+onboarding+KYC+mobile+SDK+integration) to create and manage checks.
 
-The SDK supports API level 21 and above.
+The SDK supports from Android 5.0 Lollipop (API level 21) and above.
 
 ### 1. Adding the SDK dependency
 
@@ -36,7 +36,7 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk:2.3.2"
+    implementation "com.kyc.ondato:sdk:2.4.1"
 }
 ```         
 
