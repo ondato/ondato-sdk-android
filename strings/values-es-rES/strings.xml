@@ -246,4 +246,6 @@
     <string name="ondato_waiting_page_document_obscured">Verificamos si los datos de tu documento no están oscurecidos por sombras o rayos de luz.</string>
     <string name="ondato_transfer_video_call_primary">Su identificación ha sido rechazada.</string>
     <string name="ondato_transfer_video_call_second">Tenga en cuenta que debe realizar una videollamada en vivo.</string>
+    <string name="ondato_interrupted_title">El proceso fue interrumpido</string>
+    <string name="ondato_interrupted_description">Debido a las interrupciones, el proceso se ha detenido. Permanezca en esta aplicación hasta que haya completado todos los pasos.</string>
 </resources>

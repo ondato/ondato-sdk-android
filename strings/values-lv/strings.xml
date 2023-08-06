@@ -250,4 +250,6 @@
     <string name="ondato_passport_scan_help_step3">Ja dokumentam ir vāks, noņemiet to.</string>
     <string name="ondato_transfer_video_call_primary">Jūsuidentifikācija ir noraidīta.</string>
     <string name="ondato_transfer_video_call_second">Jums ir jāveic tiešsaistes videozvans.</string>
+    <string name="ondato_interrupted_title">Process tika pārtraukts</string>
+    <string name="ondato_interrupted_description">Pārtraukumu dēļ process ir apstājies. Lūdzu, palieciet šajā lietotnē, līdz esat pabeidzis visas darbības.</string>
 </resources>

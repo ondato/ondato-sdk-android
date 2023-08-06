@@ -263,4 +263,6 @@
     <string name="ondato_passport_scan_help_step3">Nëse ka ndonjë mbulesë në dokument, hiqeni atë.</string>
     <string name="ondato_transfer_video_call_primary">Identifikimi juaj refuzohet.</string>
     <string name="ondato_transfer_video_call_second">Ju lutemi të informoni se ju kërkohet të kryeni një videotelefonatë të drejtpërdrejtë.</string>
+    <string name="ondato_interrupted_title">Procesi u ndërpre</string>
+    <string name="ondato_interrupted_description">Për shkak të ndërprerjeve, procesi është ndalur. Ju lutemi qëndroni në këtë aplikacion derisa të keni përfunduar të gjitha hapat.</string>
 </resources>

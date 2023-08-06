@@ -280,4 +280,7 @@
     <string name="ondato_personal_code_screen_title">Please provide your Taxpayer Registration Number (TRN)</string>
     <string name="ondato_personal_code_screen_description">We need your TRN in order to verify your account. Please enter your TRN as it appears on the official document and double check that it is correct before submitting to avoid delays.</string>
     <string name="ondato_trn_code">TRN code:</string>
+    <string name="ondato_trn_code_label">TRN number consists of 9 digits</string>
+    <string name="ondato_interrupted_title">The process was interrupted</string>
+    <string name="ondato_interrupted_description">Due to interruptions, the process has stopped. Please stay on this app until you have completed all steps.</string>
 </resources>

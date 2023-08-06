@@ -246,4 +246,6 @@
     <string name="ondato_waiting_page_document_obscured">We controleren of de gegevens in uw document worden niet verduisterd door schaduwen of lichtstralen.</string>
     <string name="ondato_transfer_video_call_primary">Uw identificatie is geweigerd.</string>
     <string name="ondato_transfer_video_call_second">U wordt verzocht een live videogesprek te voeren.</string>
+    <string name="ondato_interrupted_title">Het proces werd onderbroken</string>
+    <string name="ondato_interrupted_description">Door onderbrekingen is het proces gestopt. Blijf alsjeblieft op deze app totdat je alle stappen hebt voltooid.</string>
 </resources>

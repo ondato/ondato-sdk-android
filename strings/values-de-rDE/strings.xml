@@ -250,4 +250,6 @@
     <string name="ondato_passport_scan_help_step3">Wenn das Dokument eine Abdeckung aufweist, entfernen Sie diese.</string>
     <string name="ondato_transfer_video_call_primary">Ihre Identifikation wurde abgewiesen.</string>
     <string name="ondato_transfer_video_call_second">Wir möchten Sie darauf hinweisen, dass ein Live-Videogespräch erforderlich ist.</string>
+    <string name="ondato_interrupted_title">Der Prozess wurde unterbrochen</string>
+    <string name="ondato_interrupted_description">Aufgrund von Unterbrechungen wurde der Prozess gestoppt. Bitte bleiben Sie in dieser App, bis Sie alle Schritte abgeschlossen haben.</string>
 </resources>

@@ -250,4 +250,6 @@
     <string name="ondato_passport_scan_help_step3">Jei ant dokumento yra viršelis, nuimkite jį.</string>
     <string name="ondato_transfer_video_call_primary">Jūsų tapatybės patvirtinimas pripažintas netinkamu.</string>
     <string name="ondato_transfer_video_call_second">Informuojame, kad yra reikalingas Jūsų tiesioginis vaizdo skambutis.</string>
+    <string name="ondato_interrupted_title">Procesas buvo nutrauktas</string>
+    <string name="ondato_interrupted_description">Dėl trukdžių procesas sustojo. Likite šioje aplikacijoje iki kol atliksite visus veiksmus.</string>
 </resources>

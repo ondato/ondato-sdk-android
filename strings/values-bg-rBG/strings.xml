@@ -246,4 +246,6 @@
     <string name="ondato_waiting_page_document_obscured">Проверяваме дали снимките на твоя документ са ясни и четими.</string>
     <string name="ondato_transfer_video_call_primary">Вашетопотвърждениенасамоличносттаеневалидно.</string>
     <string name="ondato_transfer_video_call_second">Моля,имайтепредвид,чеенеобходимоВашетовидеообажданенаживо.</string>
+    <string name="ondato_interrupted_title">Процесът беше прекъснат</string>
+    <string name="ondato_interrupted_description">Поради прекъсвания процесът е спрян. Моля, останете в това приложение, докато не изпълните всички стъпки.</string>
 </resources>

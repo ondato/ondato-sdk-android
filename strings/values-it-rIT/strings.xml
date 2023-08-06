@@ -244,4 +244,6 @@
     <string name="ondato_poor_photo_quality_primary">La tua identificazione è stata rifiutata a causa della scarsa qualità delle foto.</string>
     <string name="ondato_waiting_page_failure_try_again_title">Riprova</string>
     <string name="ondato_waiting_page_document_obscured">Stiamo verificando che i dati nel  documento non siano oscurati da ombre o raggi di luce.</string>
+    <string name="ondato_interrupted_title">Il processo è stato interrotto</string>
+    <string name="ondato_interrupted_description">A causa di interruzioni, il processo si è interrotto. Rimani su questa app fino a quando non avrai completato tutti i passaggi.</string>
 </resources>

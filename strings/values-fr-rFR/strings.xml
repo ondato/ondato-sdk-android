@@ -246,4 +246,6 @@
     <string name="ondato_waiting_page_document_obscured">Nous vérifions que les données de votre document ne sont pas masquées par des ombres ou des rayons lumineux.</string>
     <string name="ondato_transfer_video_call_primary">Votre identification est rejetée.</string>
     <string name="ondato_transfer_video_call_second">Soyez informé que vous devez effectuer un appel vidéo en direct.</string>
+    <string name="ondato_interrupted_title">Le processus a été interrompu</string>
+    <string name="ondato_interrupted_description">En raison d'interruptions, le processus s'est arrêté. Veuillez rester sur cette application jusqu'à ce que vous ayez terminé toutes les étapes.</string>
 </resources>

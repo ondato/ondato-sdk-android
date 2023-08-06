@@ -250,4 +250,6 @@
     <string name="ondato_passport_scan_help_step3">Kui dokumendil on kate, eemaldage see.</string>
     <string name="ondato_transfer_video_call_primary">Teie identifitseerimine on tagasi lükatud.</string>
     <string name="ondato_transfer_video_call_second">Olge palun teadlik, et peate tegema reaalajas videokõne.</string>
+    <string name="ondato_interrupted_title">Protsess katkestati</string>
+    <string name="ondato_interrupted_description">Protsess katkestati Katkestuste tõttu on protsess peatunud. Jätkake seda rakendust, kuni olete kõik sammud lõpetanud.</string>
 </resources>

@@ -250,4 +250,6 @@
     <string name="ondato_passport_scan_help_step3">Если на документе есть обложка, снимите ее.</string>
     <string name="ondato_transfer_video_call_primary">Вашаидентификацияотклонена.</string>
     <string name="ondato_transfer_video_call_second">Примитексведению,чтовамнеобходимовыполнитьвидеозвонокврежимереальноговремени.</string>
+    <string name="ondato_interrupted_title">Процесс был прерван</string>
+    <string name="ondato_interrupted_description">Из-за перерывов процесс остановился. Пожалуйста, оставайтесь в этом приложении, пока не выполните все шаги.</string>
 </resources>
