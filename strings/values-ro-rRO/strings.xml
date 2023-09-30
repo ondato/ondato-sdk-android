@@ -246,4 +246,7 @@
     <string name="ondato_waiting_page_document_obscured">Verificăm dacă informațiile din document nu sunt ascunse de umbră sau raze de lumină.</string>
     <string name="ondato_interrupted_title">Procesul a fost întrerupt</string>
     <string name="ondato_interrupted_description">Din cauza întreruperilor, procesul s-a oprit. Vă rugăm să rămâneți pe această aplicație până când ați finalizat toți pașii.</string>
+    <string name="ondato_face_auth_too_many_attempts_title">Verificarea blocată din cauza prea multor încercări</string>
+    <string name="ondato_face_auth_too_many_attempts_description">Vă rugăm să contactați furnizorul de servicii pentru ajutor</string>
+    <string name="ondato_face_auth_too_many_attempts_button">OPRIȚI PROCESUL</string>
 </resources>

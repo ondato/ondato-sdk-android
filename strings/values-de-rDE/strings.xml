@@ -252,4 +252,7 @@
     <string name="ondato_transfer_video_call_second">Wir möchten Sie darauf hinweisen, dass ein Live-Videogespräch erforderlich ist.</string>
     <string name="ondato_interrupted_title">Der Prozess wurde unterbrochen</string>
     <string name="ondato_interrupted_description">Aufgrund von Unterbrechungen wurde der Prozess gestoppt. Bitte bleiben Sie in dieser App, bis Sie alle Schritte abgeschlossen haben.</string>
+    <string name="ondato_face_auth_too_many_attempts_title">Verifikation aufgrund zu vieler Versuche blockiert</string>
+    <string name="ondato_face_auth_too_many_attempts_description">Bitte kontaktieren Sie den Diensteanbieter für Hilfe</string>
+    <string name="ondato_face_auth_too_many_attempts_button">DEN PROZESS STOPPEN</string>
 </resources>

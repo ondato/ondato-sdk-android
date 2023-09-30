@@ -248,4 +248,7 @@
     <string name="ondato_transfer_video_call_second">Tenga en cuenta que debe realizar una videollamada en vivo.</string>
     <string name="ondato_interrupted_title">El proceso fue interrumpido</string>
     <string name="ondato_interrupted_description">Debido a las interrupciones, el proceso se ha detenido. Permanezca en esta aplicación hasta que haya completado todos los pasos.</string>
+    <string name="ondato_face_auth_too_many_attempts_title">Verificación bloqueada debido a demasiados intentos</string>
+    <string name="ondato_face_auth_too_many_attempts_description">Por favor, póngase en contacto con el proveedor de servicios para obtener ayuda</string>
+    <string name="ondato_face_auth_too_many_attempts_button">DETENER EL PROCESO</string>
 </resources>

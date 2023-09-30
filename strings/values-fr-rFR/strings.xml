@@ -247,5 +247,8 @@
     <string name="ondato_transfer_video_call_primary">Votre identification est rejetée.</string>
     <string name="ondato_transfer_video_call_second">Soyez informé que vous devez effectuer un appel vidéo en direct.</string>
     <string name="ondato_interrupted_title">Le processus a été interrompu</string>
-    <string name="ondato_interrupted_description">En raison d'interruptions, le processus s'est arrêté. Veuillez rester sur cette application jusqu'à ce que vous ayez terminé toutes les étapes.</string>
+    <string name="ondato_interrupted_description">En raison d\'interruptions, le processus s\'est arrêté. Veuillez rester sur cette application jusqu\'à ce que vous ayez terminé toutes les étapes.</string>
+    <string name="ondato_face_auth_too_many_attempts_title">Vérification bloquée en raison de trop nombreuses tentatives</string>
+    <string name="ondato_face_auth_too_many_attempts_description">Veuillez contacter le fournisseur de services pour obtenir de l\'aide</string>
+    <string name="ondato_face_auth_too_many_attempts_button">ARRÊTER LE PROCESSUS</string>
 </resources>

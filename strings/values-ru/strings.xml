@@ -252,4 +252,7 @@
     <string name="ondato_transfer_video_call_second">Примитексведению,чтовамнеобходимовыполнитьвидеозвонокврежимереальноговремени.</string>
     <string name="ondato_interrupted_title">Процесс был прерван</string>
     <string name="ondato_interrupted_description">Из-за перерывов процесс остановился. Пожалуйста, оставайтесь в этом приложении, пока не выполните все шаги.</string>
+    <string name="ondato_face_auth_too_many_attempts_title">Проверка заблокирована из-за слишком многих попыток</string>
+    <string name="ondato_face_auth_too_many_attempts_description">Пожалуйста, свяжитесь с поставщиком услуг за помощью</string>
+    <string name="ondato_face_auth_too_many_attempts_button">ОСТАНОВИТЬ ПРОЦЕСС</string>
 </resources>

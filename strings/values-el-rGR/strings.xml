@@ -246,4 +246,7 @@
     <string name="ondato_waiting_page_document_obscured">Ελέγχουμε εάν τα δεδομένα στο έγγραφό σου δεν καλύπτονται από σκιές ή ακτίνες φωτός.</string>
     <string name="ondato_interrupted_title">Η διαδικασία διεκόπη</string>
     <string name="ondato_interrupted_description">Λόγω διακοπών η διαδικασία σταμάτησε. Παρακαλούμε μείνετε σε αυτήν την εφαρμογή μέχρι να ολοκληρώσετε όλα τα βήματα.</string>
+    <string name="ondato_face_auth_too_many_attempts_title">Η επαλήθευση αποκλείστηκε λόγω πάρα πολλών προσπαθειών</string>
+    <string name="ondato_face_auth_too_many_attempts_description">Επικοινωνήστε με τον πάροχο υπηρεσιών για βοήθεια</string>
+    <string name="ondato_face_auth_too_many_attempts_button">ΣΤΑΜΑΤΗΣΤΕ ΤΗ ΔΙΑΔΙΚΑΣΙΑ</string>
 </resources>

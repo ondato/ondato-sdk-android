@@ -265,4 +265,7 @@
     <string name="ondato_transfer_video_call_second">Ju lutemi të informoni se ju kërkohet të kryeni një videotelefonatë të drejtpërdrejtë.</string>
     <string name="ondato_interrupted_title">Procesi u ndërpre</string>
     <string name="ondato_interrupted_description">Për shkak të ndërprerjeve, procesi është ndalur. Ju lutemi qëndroni në këtë aplikacion derisa të keni përfunduar të gjitha hapat.</string>
+    <string name="ondato_face_auth_too_many_attempts_title">Verifikimi i bllokuar për shkak të shumë tentativave</string>
+    <string name="ondato_face_auth_too_many_attempts_description">Ju lutemi, kontaktoni ofruesin e shërbimeve për ndihmë</string>
+    <string name="ondato_face_auth_too_many_attempts_button">NDAL PROCESIN</string>
 </resources>

@@ -283,4 +283,23 @@
     <string name="ondato_trn_code_label">TRN number consists of 9 digits</string>
     <string name="ondato_interrupted_title">The process was interrupted</string>
     <string name="ondato_interrupted_description">Due to interruptions, the process has stopped. Please stay on this app until you have completed all steps.</string>
+    <string name="ondato_face_auth_too_many_attempts_title">Verification blocked due to too many attempts</string>
+    <string name="ondato_face_auth_too_many_attempts_description">Please contact the service provider for help</string>
+    <string name="ondato_face_auth_too_many_attempts_button">STOP THE PROCESS</string>
+
+    <!-- TODO: need translations -->
+    <string name="ondato_capture_poa_instructions_title">Please capture your proof of address</string>
+    <string name="ondato_capture_poa_instructions_description">Please capture only the address area of your document. Photo of the address should be clearly visible, not blurry or pixelated.</string>
+    <string name="ondato_capture_poa_document_title">Please capture your proof of address</string>
+    <string name="ondato_to_upload_document_click_here">To upload document click <font color='#FF5A28'><b><u>here</u></b></font></string>
+    <string name="ondato_capture_poa_file_size">%s KB</string>
+    <string name="ondato_please_capture_your_proof_of_address">Please capture your proof of address</string>
+    <string name="ondato_provide_proof_of_address_document">Provide Proof of Address document</string>
+    <string name="ondato_please_select_the_method_of_document_submission">Please select the method of document submission.</string>
+    <string name="ondato_capture_the_document">Capture the Document</string>
+    <string name="ondato_upload_the_document">Upload the Document</string>
+    <string name="ondato_please_upload_your_proof_of_address">Please upload your proof of address</string>
+    <string name="ondato_your_proof_of_address_document_must_contain_your_full_name_and_address_this_could_be_a_bank_statement_or_utility_bill_please_make_sure_that_the_document_is_not_older_than_3_months">Your proof of address document must contain your full name and address. This could be a bank statement or utility bill. Please make sure that the document is not older than 3 months.</string>
+    <string name="ondato_files_supported_pdf_jpg_png_n_maximum_size_5mb">Files supported: PDF, JPG, PNG. \n Maximum size: 5MB</string>
+    <string name="ondato_continue">Continue</string>
 </resources>

@@ -248,4 +248,7 @@
     <string name="ondato_transfer_video_call_second">Моля,имайтепредвид,чеенеобходимоВашетовидеообажданенаживо.</string>
     <string name="ondato_interrupted_title">Процесът беше прекъснат</string>
     <string name="ondato_interrupted_description">Поради прекъсвания процесът е спрян. Моля, останете в това приложение, докато не изпълните всички стъпки.</string>
+    <string name="ondato_face_auth_too_many_attempts_title">Верификация блокирана поради твърде много опити</string>
+    <string name="ondato_face_auth_too_many_attempts_description">Моля, свържете се с доставчика на услугата за помощ</string>
+    <string name="ondato_face_auth_too_many_attempts_button">СПРЕТЕ ПРОЦЕСА</string>
 </resources>

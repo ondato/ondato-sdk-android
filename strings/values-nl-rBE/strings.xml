@@ -248,4 +248,7 @@
     <string name="ondato_transfer_video_call_second">U wordt verzocht een live videogesprek te voeren.</string>
     <string name="ondato_interrupted_title">Het proces werd onderbroken</string>
     <string name="ondato_interrupted_description">Door onderbrekingen is het proces gestopt. Blijf alsjeblieft op deze app totdat je alle stappen hebt voltooid.</string>
+    <string name="ondato_face_auth_too_many_attempts_title">Verificatie geblokkeerd vanwege te veel pogingen</string>
+    <string name="ondato_face_auth_too_many_attempts_description">Neem contact op met de dienstverlener voor hulp</string>
+    <string name="ondato_face_auth_too_many_attempts_button">STOP HET PROCES</string>
 </resources>

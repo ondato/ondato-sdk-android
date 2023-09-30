@@ -252,4 +252,7 @@
     <string name="ondato_transfer_video_call_second">Jums ir jāveic tiešsaistes videozvans.</string>
     <string name="ondato_interrupted_title">Process tika pārtraukts</string>
     <string name="ondato_interrupted_description">Pārtraukumu dēļ process ir apstājies. Lūdzu, palieciet šajā lietotnē, līdz esat pabeidzis visas darbības.</string>
+    <string name="ondato_face_auth_too_many_attempts_title">Verifikācija bloķēta pārāk daudzu mēģinājumu dēļ</string>
+    <string name="ondato_face_auth_too_many_attempts_description">Lūdzu, sazinieties ar pakalpojuma sniedzēju, lai saņemtu palīdzību</string>
+    <string name="ondato_face_auth_too_many_attempts_button">APTURĒT PROCESU</string>
 </resources>

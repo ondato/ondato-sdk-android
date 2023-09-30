@@ -252,4 +252,7 @@
     <string name="ondato_transfer_video_call_second">Olge palun teadlik, et peate tegema reaalajas videokõne.</string>
     <string name="ondato_interrupted_title">Protsess katkestati</string>
     <string name="ondato_interrupted_description">Protsess katkestati Katkestuste tõttu on protsess peatunud. Jätkake seda rakendust, kuni olete kõik sammud lõpetanud.</string>
+    <string name="ondato_face_auth_too_many_attempts_title">Kinnitamine blokeeritud liiga paljude katsete tõttu</string>
+    <string name="ondato_face_auth_too_many_attempts_description">Palun võtke ühendust teenusepakkujaga abi saamiseks</string>
+    <string name="ondato_face_auth_too_many_attempts_button">PEATA PROTSESS</string>
 </resources>

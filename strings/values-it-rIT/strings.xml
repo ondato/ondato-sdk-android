@@ -246,4 +246,7 @@
     <string name="ondato_waiting_page_document_obscured">Stiamo verificando che i dati nel  documento non siano oscurati da ombre o raggi di luce.</string>
     <string name="ondato_interrupted_title">Il processo è stato interrotto</string>
     <string name="ondato_interrupted_description">A causa di interruzioni, il processo si è interrotto. Rimani su questa app fino a quando non avrai completato tutti i passaggi.</string>
+    <string name="ondato_face_auth_too_many_attempts_title">Verifica bloccata a causa di troppi tentativi</string>
+    <string name="ondato_face_auth_too_many_attempts_description">Contatta il fornitore del servizio per assistenza</string>
+    <string name="ondato_face_auth_too_many_attempts_button">FERMA IL PROCESSO</string>
 </resources>

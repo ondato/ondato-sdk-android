@@ -252,4 +252,7 @@
     <string name="ondato_transfer_video_call_second">Informuojame, kad yra reikalingas Jūsų tiesioginis vaizdo skambutis.</string>
     <string name="ondato_interrupted_title">Procesas buvo nutrauktas</string>
     <string name="ondato_interrupted_description">Dėl trukdžių procesas sustojo. Likite šioje aplikacijoje iki kol atliksite visus veiksmus.</string>
+    <string name="ondato_face_auth_too_many_attempts_title">Patikrinimas užblokuotas dėl per daug bandymų</string>
+    <string name="ondato_face_auth_too_many_attempts_description">Dėl pagalbos kreipkitės į paslaugų teikėją</string>
+    <string name="ondato_face_auth_too_many_attempts_button">SUSTABDYTI PROCESĄ</string>
 </resources>
