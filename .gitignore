@@ -1,0 +1,9 @@
+example/*.iml
+example/.gradle
+example/.idea
+example/local.properties
+example/.DS_Store
+example/build
+example/captures
+example/.externalNativeBuild
+example/repos
