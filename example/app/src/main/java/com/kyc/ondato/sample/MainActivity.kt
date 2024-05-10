@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
     private fun initSdk() {
         val config = OndatoConfig.Builder()
             .setIdentityVerificationId("<Your identification id here>")
-            .showSplashScreen(true)
             .showStartScreen(true)
             .showSuccessScreen(true)
             .setMode(OndatoConfig.Mode.TEST)
