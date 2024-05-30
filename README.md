@@ -36,7 +36,7 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk:2.5.4"
+    implementation "com.kyc.ondato:sdk:2.5.5"
 }
 ```         
 
