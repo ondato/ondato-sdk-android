@@ -1,6 +1,6 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-    ext.kotlin_version = "1.6.21"
+    ext.kotlin_version = "1.8.0"
     repositories {
         google()
         mavenCentral()
@@ -16,9 +16,11 @@ buildscript {
 
 allprojects {
     repositories {
+        maven { url "$rootDir/../repos"}
         google()
         jcenter()
-        maven { url "https://raw.githubusercontent.com/ondato/ondato-sdk-android/main/repos/" }
+//        maven { url "https://raw.githubusercontent.com/ondato/ondato-sdk-android/main/repos/" }
+        mavenLocal()
     }
 }
 
