@@ -28,6 +28,7 @@ allprojects {
     repositories {
         jcenter()
         maven { url "https://raw.githubusercontent.com/ondato/ondato-sdk-android/main/repos/" }
+        maven { url 'https://jitpack.io' }
     }
 }
 ```
