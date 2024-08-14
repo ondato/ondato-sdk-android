@@ -176,15 +176,15 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>com.gemalto.jp2</groupId>
-      <artifactId>jp2-android</artifactId>
-      <version>1.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-android</artifactId>
       <version>1.7.30</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.Tgo1014</groupId>
+      <artifactId>JP2ForAndroid</artifactId>
+      <version>1.0.4</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
