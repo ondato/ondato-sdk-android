@@ -5,5 +5,5 @@
   <groupId>com.facetec</groupId>
   <artifactId>sdk</artifactId>
   <version>9.7.46</version>
-  <packaging>pom</packaging>
+  <packaging>aar</packaging>
 </project>
