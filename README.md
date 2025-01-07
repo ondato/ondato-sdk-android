@@ -19,7 +19,7 @@ This SDK provides a drop-in set of screens and tools for Android applications to
 
 The SDK supports from Android 5.0 Lollipop (API level 21) and above.
 
-### 1. Adding the SDK dependency
+### 1. Adding the SDK dependencies
 
 Add repository to project level build.gradle file:
 
@@ -37,9 +37,15 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk:2.5.7"
+    implementation "com.kyc.ondato:sdk:2.6.0"
 }
 ```         
+
+Since version 2.6.0, the NFC reader and screen recorder modules were separated from the core SDK package, meaning that these functionalities will not work if not imported explicitly. If you want to use the following modules, add these lines to your module level build.gradle file:
+
+- `implementation "com.kyc.ondato:sdk:2.6.0"` - for screen recording
+- `implementation "com.kyc.ondato:nfc-reader:2.6.0"` - for NFC tag scanning
+
 
 ### 2. Creating the SDK configuration
 
