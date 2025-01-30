@@ -37,14 +37,14 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk:2.6.0"
+    implementation "com.kyc.ondato:sdk:2.6.1"
 }
 ```         
 
 Since version 2.6.0, the NFC reader and screen recorder modules were separated from the core SDK package, meaning that these functionalities will not work if not imported explicitly. If you want to use the following modules, add these lines to your module level build.gradle file:
 
-- `implementation "com.kyc.ondato:recorder:2.6.0"` - for screen recording
-- `implementation "com.kyc.ondato:nfc-reader:2.6.0"` - for NFC tag scanning
+- `implementation "com.kyc.ondato:recorder:2.6.1"` - for screen recording
+- `implementation "com.kyc.ondato:nfc-reader:2.6.1"` - for NFC tag scanning
 
 
 ### 2. Creating the SDK configuration
