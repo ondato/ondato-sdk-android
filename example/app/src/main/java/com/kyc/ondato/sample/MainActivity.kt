@@ -26,11 +26,11 @@ class MainActivity : AppCompatActivity() {
             .setLanguage("en")
             .build()
 
-        Ondato.INSTANCE.init(config)
+        Ondato.init(config)
     }
 
     private fun startIdentification() {
-        Ondato.INSTANCE.startIdentification(applicationContext, object : Ondato.ResultListener {
+        Ondato.startIdentification(applicationContext, object : Ondato.ResultListener {
             override fun onSuccess(identificationId: String?) {
                 findViewById<TextView>(R.id.result_text_view)?.text = "Success"
             }
