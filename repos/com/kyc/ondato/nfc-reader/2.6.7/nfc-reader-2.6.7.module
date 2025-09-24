@@ -1,0 +1,239 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kyc.ondato",
+    "module": "nfc-reader",
+    "version": "2.6.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nfc-reader-2.6.7.aar",
+          "url": "nfc-reader-2.6.7.aar",
+          "size": 505300,
+          "sha512": "67b7c409e176f49d233e8a7bfa22b8383a63d807514709650385dc33d84bdcb13647ea9ec790a4e6923cb2efcce2baaefd39fed125b1d38967726009b95b82fd",
+          "sha256": "80d22245fec7d7ded0252565aa3eddda8372cbca90c2f9f9cca948bb66e87288",
+          "sha1": "4d7850aa055e9ce0ce4d4efb9cf808a15702c8fb",
+          "md5": "a04409ecd281c2348f7b6219bef32ba9"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.kyc.ondato",
+          "module": "sdk",
+          "version": {
+            "requires": "2.6.7"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.3"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-mlkit-text-recognition",
+          "version": {
+            "requires": "18.0.0"
+          }
+        },
+        {
+          "group": "org.jmrtd",
+          "module": "jmrtd",
+          "version": {
+            "requires": "0.7.18"
+          }
+        },
+        {
+          "group": "dev.keiji.jp2",
+          "module": "jp2-android",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-android",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "com.github.mhshams",
+          "module": "jnbis",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "net.sf.scuba",
+          "module": "scuba-sc-android",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "org.ejbca.cvc",
+          "module": "cert-cvc",
+          "version": {
+            "requires": "1.4.6"
+          }
+        },
+        {
+          "group": "com.madgag.spongycastle",
+          "module": "prov",
+          "version": {
+            "requires": "1.58.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nfc-reader-2.6.7.aar",
+          "url": "nfc-reader-2.6.7.aar",
+          "size": 505300,
+          "sha512": "67b7c409e176f49d233e8a7bfa22b8383a63d807514709650385dc33d84bdcb13647ea9ec790a4e6923cb2efcce2baaefd39fed125b1d38967726009b95b82fd",
+          "sha256": "80d22245fec7d7ded0252565aa3eddda8372cbca90c2f9f9cca948bb66e87288",
+          "sha1": "4d7850aa055e9ce0ce4d4efb9cf808a15702c8fb",
+          "md5": "a04409ecd281c2348f7b6219bef32ba9"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "nfc-reader-2.6.7-sources.jar",
+          "url": "nfc-reader-2.6.7-sources.jar",
+          "size": 81666,
+          "sha512": "84ceb375f5edefe18c083bac213d66bd186dd8452151b5927f6495d6d07b732e4196acd0767b3bb2865346f73d09a5b79bc15cf9613cfa0509b38fe783a3f7bf",
+          "sha256": "9950cd0ca32c9a0eec4f2a31a454d38156f479379818e419f1064577f94c660f",
+          "sha1": "64c9cdb5ba5f709ff3a39423f54d1e92b1e4d62a",
+          "md5": "f3a25013ef8528233b0a62406ddaf8e8"
+        }
+      ]
+    }
+  ]
+}
