@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.ondato.sdk.Ondato
 import com.ondato.sdk.OndatoConfig
 import com.ondato.sdk.OndatoError
-
+import com.ondato.sdk.enums.Language
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,10 +20,8 @@ class MainActivity : AppCompatActivity() {
     private fun initSdk() {
         val config = OndatoConfig.Builder()
             .setIdentityVerificationId("<Your identification id here>")
-            .showStartScreen(true)
-            .showSuccessScreen(true)
             .setMode(OndatoConfig.Mode.TEST)
-            .setLanguage("en")
+            .setLanguage(Language.English)
             .build()
 
         Ondato.init(config)
