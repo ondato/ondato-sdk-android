@@ -44,14 +44,14 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.2.0"
+    implementation "com.kyc.ondato:sdk-core:3.3.0"
 }
 ```         
 
 Since version 2.6.0, the NFC reader and screen recorder modules were separated from the core SDK package, meaning that these functionalities will not work if not imported explicitly. If you want to use the following modules, add these lines to your module level build.gradle file:
 
-- `implementation "com.kyc.ondato:screen-recorder:3.2.0"` - for screen recording
-- `implementation "com.kyc.ondato:nfc-reader:3.2.0"` - for NFC tag scanning
+- `implementation "com.kyc.ondato:screen-recorder:3.3.0"` - for screen recording
+- `implementation "com.kyc.ondato:nfc-reader:3.3.0"` - for NFC tag scanning
 
 
 ### 2. Creating the SDK configuration
@@ -70,6 +70,7 @@ Since version 2.6.0, the NFC reader and screen recorder modules were separated f
         .setSuccessScreenProvider { callback -> CustomSuccessFragment.newInstance(callback) }
         .setLoadingScreenProvider { CustomLoadingScreenFragment.newInstance() }
         .setInstructionsScreenProvider { mode, callback -> CustomInstructionsFragment.newInstance(mode, callback) }
+        .setTermsAndConditionsRules(true, 10000L) // default parameters: true for enabling button after scrolling to the end of text, 10 seconds timeout for enabling the terms acceptance button
         .build()
 
 ```
@@ -597,44 +598,59 @@ If your identification configuration has NFC enabled and can be used in your flo
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.2.0"
-    implementation "com.kyc.ondato:nfc-reader:3.2.0"
+    implementation "com.kyc.ondato:sdk-core:3.3.0"
+    implementation "com.kyc.ondato:nfc-reader:3.3.0"
 }
 ```
 
-This will allow you to utilise the NFC tag scanning technology in end user devices, provided that these devices support NFC. 
+This will allow you to utilise the NFC tag scanning technology in end user devices, provided that these devices support NFC.
 
-Currently, only passports and ID cards can be scanned with NFC - other types of documents, even if they have NFC chips with them, cannot have their chips scanned. However, this is subject to change in further releases of the SDK. 
+Currently, only passports and ID cards can be scanned with NFC - other types of documents, even if they have NFC chips with them, cannot have their chips scanned. However, this is subject to change in further releases of the SDK.
 
-If the end user's device does not support NFC or the end user willingly does not enable it but you still want the user to have their documents scanned with NFC, then the identification flow will not succeed, although this process can be skipped depending on your account configuration settings. 
+If the end user's device does not support NFC or the end user willingly does not enable it but you still want the user to have their documents scanned with NFC, then the identification flow will not succeed, although this process can be skipped depending on your account configuration settings.
 
 ### Screen recorder module
 If your identification configuration has screen recording enabled and can be used in your flows, then add the `screen-recorder` module next to the `sdk-core` in your module level `build.gradle` file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.2.0"
-    implementation "com.kyc.ondato:screen-recorder:3.2.0"
+    implementation "com.kyc.ondato:sdk-core:3.3.0"
+    implementation "com.kyc.ondato:screen-recorder:3.3.0"
 }
 ```
 
-This will let you capture and record the user's actions on the device in order to prevent fraudulent user activity when trying to pass the identification process. 
+This will let you capture and record the user's actions on the device in order to prevent fraudulent user activity when trying to pass the identification process.
 
 Note that the user can reject the screen recording permission, since this is a [permission requirement coming with Android 10](https://source.android.com/docs/core/permissions/restricted-screen-reading), and if the user decides not to allow the SDK to record the device, then the identification will fail.
 
 The screen recorder records all the actions performed on the device when the identification is in progress, i.e. when SDK is active within your app. The actions recorded can be either inside the app or outside of it, and the recorder captures audio and screen video of the device. Once the identification steps are completed, the recorder stops recording and produces a video for submission and review.
 If you have concerns regarding end user privacy when using this feature, please contact Ondato support team at [support@ondato.com](mailto:support@ondato.com) for further guidance.
 
+### Automatic document capture module
+If your identification configuration has document autocapture enabled and can be used in your flows, then add the `document-autoresolver` module next to the `sdk-core` in your module level `build.gradle` file:
+
+```
+dependencies {
+    implementation "com.kyc.ondato:sdk-core:3.3.0"
+    implementation "com.kyc.ondato:document-autoresolver:3.3.0"
+}
+```
+
+By adding this dependency you will be able to use ML-based document recognition and capturing algorithms, increasing the identification success rates and creates less hassle than capturing document images themselves manually.
+
+Automatic document capture is valid for all types of documents, although proof-of-address documents cannot be captured automatically as of the current version (v.3.3.0).
+
 ---
 
 ## SDK sizing
 The package size can differ, depending on which version of the SDK you are using, but for most cases, it stays under a similar package size.
 
-| Module          | Size     |
-|-----------------|----------|
-| sdk-core        | 4.1 MB   |
-| nfc-reader      | 0.54 MB  |
-| screen-recorder | 0.069 MB |
+| Module                | Size     |
+|-----------------------|----------|
+| sdk-core              | 2.3 MB   |
+| document-autoresolver | 2.7 MB   |
+| nfc-reader            | 0.574 MB |
+| screen-recorder       | 0.068 MB |
 
 Using AABs, enabling code minification and resource shrinking on your own app can greatly reduce the overall package size, therefore, the declared numbers here can actually be lower for the final result when you are publishing your app.
 
