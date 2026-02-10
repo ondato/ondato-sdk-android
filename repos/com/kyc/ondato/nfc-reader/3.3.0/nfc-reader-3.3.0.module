@@ -35,11 +35,11 @@
         {
           "name": "nfc-reader-3.3.0.aar",
           "url": "nfc-reader-3.3.0.aar",
-          "size": 590072,
-          "sha512": "54cff70521e441acfdeec362de6ad8d3ce8f480786afe61d26a9eeaf437af1ec6f80100804a4904a2ffacb70b2e6474b84f035ffd285884241d812cdc7b78ee8",
-          "sha256": "9f4ced23a6e86df3bfffad6c09debde9737ff851826222ceb06cd7a86b6f5b51",
-          "sha1": "a1ba63e82be639fef8b08f1faad2017657607510",
-          "md5": "a920a725f92a59a1a4f466890810dbaa"
+          "size": 590073,
+          "sha512": "39cd38aad8ba0ffd9d14078d3fbbdc50ec97dba00493e3d6cde17f90accb3902cb06a39c27d0173348e7138b4025b11b5242df37789321d70a3c146b0d2f9195",
+          "sha256": "8d3145b7e6804095b88d5d5e9df0df5f9fdea179373bd1ce3ba21f0a92434f93",
+          "sha1": "bad45075beae5791e3dc2d324cce1ea51e18ff3b",
+          "md5": "e705b62b3d8a54d42b41871ffce1f9ff"
         }
       ]
     },
@@ -228,11 +228,11 @@
         {
           "name": "nfc-reader-3.3.0.aar",
           "url": "nfc-reader-3.3.0.aar",
-          "size": 590072,
-          "sha512": "54cff70521e441acfdeec362de6ad8d3ce8f480786afe61d26a9eeaf437af1ec6f80100804a4904a2ffacb70b2e6474b84f035ffd285884241d812cdc7b78ee8",
-          "sha256": "9f4ced23a6e86df3bfffad6c09debde9737ff851826222ceb06cd7a86b6f5b51",
-          "sha1": "a1ba63e82be639fef8b08f1faad2017657607510",
-          "md5": "a920a725f92a59a1a4f466890810dbaa"
+          "size": 590073,
+          "sha512": "39cd38aad8ba0ffd9d14078d3fbbdc50ec97dba00493e3d6cde17f90accb3902cb06a39c27d0173348e7138b4025b11b5242df37789321d70a3c146b0d2f9195",
+          "sha256": "8d3145b7e6804095b88d5d5e9df0df5f9fdea179373bd1ce3ba21f0a92434f93",
+          "sha1": "bad45075beae5791e3dc2d324cce1ea51e18ff3b",
+          "md5": "e705b62b3d8a54d42b41871ffce1f9ff"
         }
       ]
     }

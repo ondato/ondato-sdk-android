@@ -42,11 +42,11 @@
         {
           "name": "screen-recorder-3.3.0.aar",
           "url": "screen-recorder-3.3.0.aar",
-          "size": 70881,
-          "sha512": "4bffbbb289022ad6faa5e8a94eaf09b4bdcac1ab5655c35b5ee7fca3f985e128de4ad7b2a9d5f4fb4f75132ac80acd4a14883bdf34eea3b82f3993ad9278b7e4",
-          "sha256": "bbb6c4dfeb1425c24c7b446d65e69e28e501f3a59db1632fad3e2d8bb1f9a9f1",
-          "sha1": "96fd89fe860c6dcbc164f3d722ed3d816779ca64",
-          "md5": "12f205974710134416cdfacc1d2f99e2"
+          "size": 70880,
+          "sha512": "f28adeefe58b64a2ca1f64de78c2743b4caabadd0b8afe1767209d728bbf24e7e7e4468f02b9390c742b5e4f400876ab8c61892344cf186569be18632b59911c",
+          "sha256": "f24b51c37d177e5ee8fa7fe68ebae6249fa7c606c4777b584e3cc283f88e59fa",
+          "sha1": "1a481f51c17381069b14bcd185f4656a1f876cc4",
+          "md5": "cef90d3eb066e4a7a61686be2ff8882a"
         }
       ]
     },
@@ -126,11 +126,11 @@
         {
           "name": "screen-recorder-3.3.0.aar",
           "url": "screen-recorder-3.3.0.aar",
-          "size": 70881,
-          "sha512": "4bffbbb289022ad6faa5e8a94eaf09b4bdcac1ab5655c35b5ee7fca3f985e128de4ad7b2a9d5f4fb4f75132ac80acd4a14883bdf34eea3b82f3993ad9278b7e4",
-          "sha256": "bbb6c4dfeb1425c24c7b446d65e69e28e501f3a59db1632fad3e2d8bb1f9a9f1",
-          "sha1": "96fd89fe860c6dcbc164f3d722ed3d816779ca64",
-          "md5": "12f205974710134416cdfacc1d2f99e2"
+          "size": 70880,
+          "sha512": "f28adeefe58b64a2ca1f64de78c2743b4caabadd0b8afe1767209d728bbf24e7e7e4468f02b9390c742b5e4f400876ab8c61892344cf186569be18632b59911c",
+          "sha256": "f24b51c37d177e5ee8fa7fe68ebae6249fa7c606c4777b584e3cc283f88e59fa",
+          "sha1": "1a481f51c17381069b14bcd185f4656a1f876cc4",
+          "md5": "cef90d3eb066e4a7a61686be2ff8882a"
         }
       ]
     }
