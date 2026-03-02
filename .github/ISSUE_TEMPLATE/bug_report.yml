@@ -1,0 +1,85 @@
+name: 🐛 Bug report
+description: Report a reproducible bug or regression in this library.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Bug report
+
+        👋 Hi!
+
+        **Please fill in the following form carefully before opening a new issue ❗**
+        *(Your issue may be closed if it doesn't provide the required pieces of information)*
+  - type: checkboxes
+    attributes:
+      label: Before submitting a new issue
+      description: Please perform these simple checks first.
+      options:
+        - label: I have tested using the latest version of the library, as the bug might be already fixed.
+          required: true
+        - label: I have checked that the IDVID (session ID) generator works fine, and each session is generated properly, without issues.
+          required: true
+        - label: I have checked that all the necessary dependencies of the SDK are being used (implemented) for the flows invoked.
+          required: true
+        - label: I have checked for possible duplicate issues, with possible answers.
+          required: true
+        - label: I have contacted the [Ondato support team](mailto:support@ondato.com) and they weren't able to solve the issue.
+          required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Bug summary
+      description: |
+        Provide a clear and concise description of what the bug is about.
+        If needed, you can also provide other samples, e.g. screenshots, gifs, etc. that might help to troubleshoot the issue.
+    validations:
+      required: true
+  - type: input
+    id: library-version
+    attributes:
+      label: Library version
+      description: What version of the library are you using?
+      placeholder: "x.x.x"
+    validations:
+      required: true
+  - type: textarea
+    id: basic-info
+    attributes:
+      label: Environment info
+      description: |
+        Please provide the following:
+        - Android OS version
+        - Device on which the issue was reproduced
+        - Your app's Gradle version
+        - Your app's compileSdk/targetSdk values
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: |
+        You must provide a clear list of steps and code to reproduce the problem.
+      value: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+  - type: input
+    id: error-logs
+    attributes:
+      label: Error logs
+      description: It is required that you include full logs from Logcat, with Ondato SDK being configured to run on `Debug` logging level. Due to privacy reasons, you can omit your own app's sensitive data, however, Ondato SDK logs must not be truncated.
+      placeholder: "The logs from your app, preferably with timestamps"
+    validations:
+      required: true
+  - type: input
+    id: reproducible-example
+    attributes:
+      label: Reproducible example repository
+      description: Please provide a link to a repository on GitHub with a reproducible example.
+    validations:
+      required: true

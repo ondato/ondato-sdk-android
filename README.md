@@ -44,14 +44,14 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.3.0"
+    implementation "com.kyc.ondato:sdk-core:3.3.2"
 }
 ```         
 
 Since version 2.6.0, the NFC reader and screen recorder modules were separated from the core SDK package, meaning that these functionalities will not work if not imported explicitly. If you want to use the following modules, add these lines to your module level build.gradle file:
 
-- `implementation "com.kyc.ondato:screen-recorder:3.3.0"` - for screen recording
-- `implementation "com.kyc.ondato:nfc-reader:3.3.0"` - for NFC tag scanning
+- `implementation "com.kyc.ondato:screen-recorder:3.3.2"` - for screen recording
+- `implementation "com.kyc.ondato:nfc-reader:3.3.2"` - for NFC tag scanning
 
 
 ### 2. Creating the SDK configuration
@@ -598,8 +598,8 @@ If your identification configuration has NFC enabled and can be used in your flo
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.3.0"
-    implementation "com.kyc.ondato:nfc-reader:3.3.0"
+    implementation "com.kyc.ondato:sdk-core:3.3.2"
+    implementation "com.kyc.ondato:nfc-reader:3.3.2"
 }
 ```
 
@@ -614,8 +614,8 @@ If your identification configuration has screen recording enabled and can be use
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.3.0"
-    implementation "com.kyc.ondato:screen-recorder:3.3.0"
+    implementation "com.kyc.ondato:sdk-core:3.3.2"
+    implementation "com.kyc.ondato:screen-recorder:3.3.2"
 }
 ```
 
@@ -631,14 +631,14 @@ If your identification configuration has document autocapture enabled and can be
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.3.0"
-    implementation "com.kyc.ondato:document-autoresolver:3.3.0"
+    implementation "com.kyc.ondato:sdk-core:3.3.2"
+    implementation "com.kyc.ondato:document-autoresolver:3.3.2"
 }
 ```
 
 By adding this dependency you will be able to use ML-based document recognition and capturing algorithms, increasing the identification success rates and creates less hassle than capturing document images themselves manually.
 
-Automatic document capture is valid for all types of documents, although proof-of-address documents cannot be captured automatically as of the current version (v.3.3.0).
+Automatic document capture is valid for all types of documents, although proof-of-address documents cannot be captured automatically as of the current version (v.3.3.2).
 
 ---
 
