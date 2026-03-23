@@ -21,7 +21,7 @@
     <string name="Action_Cancel">Cancel</string>
     <string name="Action_Close">Close</string>
     <string name="Action_Disagree">Disagree</string>
-    <string name="Action_Loading_Header">Uploading information</string>
+    <string name="Action_Loading_Header">Loading...</string>
     <string name="Action_Submit">Submit</string>
     <string name="AdditionalDocument_Instructions_NFC_Settings_Abort">Abort process</string>
     <string name="AdditionalDocument_Instructions_NFC_Settings_Description">To continue you need to make sure that the document has NFC and it’s been enabled in your device.</string>
@@ -195,12 +195,23 @@
     <string name="Error_Interrupt_Heading">The process was interrupted</string>
     <string name="Error_NoInternetConnection_Description">Please reconnect to continue</string>
     <string name="Error_NoInternetConnection_Heading">Your internet connection is gone</string>
+    <string name="FaceAuth_Instructions_Action_Start">Start</string>
+    <string name="FaceAuth_Instructions_Description">During the process position your face in the middle of the frame.</string>
+    <string name="FaceAuth_Instructions_Header">Authenticate with your face</string>
+    <string name="FaceAuth_Instructions_Subheader">Make sure:</string>
+    <string name="FaceAuth_Instructions_Suggestions_Suggestion1">Your face is neutral</string>
+    <string name="FaceAuth_Instructions_Suggestions_Suggestion2">The lighting is good</string>
+    <string name="FaceAuth_Instructions_Suggestions_Suggestion3">The image is clear</string>
+    <string name="FaceCapture_Instructions_Action_Start">Start</string>
     <string name="FaceCapture_Instructions_Description">Position your face in the middle of the frame.</string>
     <string name="FaceCapture_Instructions_Header">Take a selfie</string>
     <string name="FaceCapture_Instructions_Mistakes_Blurry">The image is clear</string>
     <string name="FaceCapture_Instructions_Mistakes_NotNeutral">Your face is neutral</string>
     <string name="FaceCapture_Instructions_Mistakes_TooDark">The lighting is good</string>
     <string name="FaceCapture_Instructions_Subheader">Make sure:</string>
+    <string name="FaceCapture_Instructions_Suggestions_Suggestion1">Your face is neutral</string>
+    <string name="FaceCapture_Instructions_Suggestions_Suggestion2">The lighting is good</string>
+    <string name="FaceCapture_Instructions_Suggestions_Suggestion3">The image is clear</string>
     <string name="FaceCapture_Validation_Description">Please wait...</string>
     <string name="FaceCapture_Validation_Header">Validating your photo</string>
     <string name="FaceTecRetryReasonBadLightingFailureToAcquire_subtitle">Please be informed that during your identification harsh lighting surrounding was detected around your face. We kindly ask to make sure that your surrounding is not too bright</string>
@@ -236,10 +247,10 @@
     <string name="FaceTec_camera_permission_header">Enable Camera</string>
     <string name="FaceTec_camera_permission_launch_settings">Launch settings</string>
     <string name="FaceTec_camera_permission_message">
-    Camera permissions disabled.
-    \n
-    Please check your operating system and browser settings.
-  </string>
+        Camera permissions disabled.
+        \n
+        Please check your operating system and browser settings.
+    </string>
     <string name="FaceTec_camera_permission_message_auth">Your camera permissions are disabled. Tap below to edit your settings.</string>
     <string name="FaceTec_camera_permission_message_enroll">Please enable your selfie camera.</string>
     <string name="FaceTec_feedback_center_face">Center Your Face</string>
@@ -274,10 +285,10 @@
     <string name="FaceTec_presession_position_face_straight_in_oval">Look Straight Ahead</string>
     <string name="FaceTec_presession_remove_dark_glasses">Remove Dark Glasses</string>
     <string name="FaceTec_result_facescan_upload_message">
-    Loading
-    \n
-    please wait
-  </string>
+        Loading
+        \n
+        please wait
+    </string>
     <string name="FaceTec_result_success_message">Success!</string>
     <string name="FaceTec_retry_header">Let\'s Try That Again</string>
     <string name="FaceTec_retry_ideal_image_label">Ideal Pose</string>
@@ -315,6 +326,8 @@
     <string name="Result_Failure_Action_TryAgain">Try again</string>
     <string name="Result_Failure_ColoredAmbientLightDetected_Description">Please try again and ensure that document is evenly lit with a white lighting source.</string>
     <string name="Result_Failure_ColoredAmbientLightDetected_Header">The provided photo has poor lighting</string>
+    <string name="Result_Failure_DocAndBioAgeDoesntMatch_Description">Contact customer support for more information.</string>
+    <string name="Result_Failure_DocAndBioAgeDoesntMatch_Header">Identification was rejected due to mismatched details</string>
     <string name="Result_Failure_DocumentDamaged_Description">Please try again with a different document.</string>
     <string name="Result_Failure_DocumentDamaged_Header">Part of the provided document is damaged</string>
     <string name="Result_Failure_DocumentFromScreen_Description">Please try again with a valid photo of the physical document.</string>
@@ -327,12 +340,16 @@
     <string name="Result_Failure_DocumentPrinted_Header">The provided document photo is invalid</string>
     <string name="Result_Failure_DocumentWithNonLatinCharacters_Description">Please try again with a document with Latin characters.</string>
     <string name="Result_Failure_DocumentWithNonLatinCharacters_Header">The provided document type does not meet requirements</string>
+    <string name="Result_Failure_ExpirationDateMismatch_Description">Contact customer support for more information.</string>
+    <string name="Result_Failure_ExpirationDateMismatch_Header">Identification was rejected due to mismatched details</string>
     <string name="Result_Failure_FacePhotoUploadFormat_Description">We kindly ask you to capture your original document</string>
     <string name="Result_Failure_FacePhotoUploadFormat_Header">Your identification was rejected</string>
     <string name="Result_Failure_FacesNotMatch_Description">Please try again or contact customer support.</string>
     <string name="Result_Failure_FacesNotMatch_Header">The provided document and selfie photos do not match</string>
     <string name="Result_Failure_Generic_Description">Contact customer support for more information.</string>
     <string name="Result_Failure_Generic_Header">There was a problem with your identification</string>
+    <string name="Result_Failure_IncorrectInformationProvided_Description">Contact customer support for more information.</string>
+    <string name="Result_Failure_IncorrectInformationProvided_Header">Identification was rejected due to incorrect information</string>
     <string name="Result_Failure_InvalidProofOfAddress_Description">Please try again and ensure that the Proof of Address document is valid.</string>
     <string name="Result_Failure_InvalidProofOfAddress_Header">The provided Proof of Address photo is invalid</string>
     <string name="Result_Failure_MissingDocumentPhoto_Description">Please try again and provide all the necessary photos of your document.</string>
@@ -341,10 +358,14 @@
     <string name="Result_Failure_MissingPersonPhoto_Header">The face photo is missing</string>
     <string name="Result_Failure_MoreThanOnePerson_Description">Please try again without other people participating.</string>
     <string name="Result_Failure_MoreThanOnePerson_Header">User is not alone during the process</string>
+    <string name="Result_Failure_NameMismatch_Description">Contact customer support for more information.</string>
+    <string name="Result_Failure_NameMismatch_Header">Identification was rejected due to mismatched details</string>
     <string name="Result_Failure_PartOfDocumentIsCovered_Description">Please try again and ensure that the document is clearly readable and no data is covered.</string>
     <string name="Result_Failure_PartOfDocumentIsCovered_Header">The provided document is partly covered</string>
     <string name="Result_Failure_PartOfFaceIsCovered_Description">Please try again by following the provided instructions. Your face should not be covered.</string>
     <string name="Result_Failure_PartOfFaceIsCovered_Header">Face is partly covered</string>
+    <string name="Result_Failure_PhotoBlurred_Description">Please try again or contact client support</string>
+    <string name="Result_Failure_PhotoBlurred_Header">The provided photo is blurry</string>
     <string name="Result_Failure_PoorPhotoLighting_Description">Please try again and ensure that document is evenly lit.</string>
     <string name="Result_Failure_PoorPhotoLighting_Header">The provided photo has poor lighting</string>
     <string name="Result_Failure_PoorPhotoQuality_Description">Please try again and ensure that the document data is clearly readable or in the case of poor camera quality, please try starting the process on a different device.</string>

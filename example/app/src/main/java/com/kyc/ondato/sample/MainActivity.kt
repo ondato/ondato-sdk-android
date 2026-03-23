@@ -6,8 +6,8 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.ondato.sdk.Ondato
 import com.ondato.sdk.OndatoConfig
-import com.ondato.sdk.OndatoError
 import com.ondato.sdk.enums.Language
+import com.ondato.sdk.enums.OndatoError
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
