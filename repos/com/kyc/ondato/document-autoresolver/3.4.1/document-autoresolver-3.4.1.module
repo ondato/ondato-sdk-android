@@ -1,0 +1,254 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kyc.ondato",
+    "module": "document-autoresolver",
+    "version": "3.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "document-autoresolver-3.4.1.aar",
+          "url": "document-autoresolver-3.4.1.aar",
+          "size": 830084,
+          "sha512": "6a8927329871fbcc903db3c5102368ae5d798780ec0de279bac9303d6205d6697c1c4601d0f7507dde02e1e63d411d1879633025e4c4f9ccc847d2011cad39ec",
+          "sha256": "2765a5ba898c37ac12de7ada2ac72776949aa9019dcba65b9d234f8dd09d8e9a",
+          "sha1": "e9f9c3a36488ccaa16fa3eba3c1effc1c9f6de33",
+          "md5": "b2f285bcf8faca537ada26affc32f52a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kyc.ondato",
+          "module": "sdk-core",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.8.8"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.11.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-extended"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-livedata"
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-compose",
+          "version": {
+            "requires": "1.8.8"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "6.6.7"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie-compose",
+          "version": {
+            "requires": "6.6.7"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-extensions",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "org.tensorflow",
+          "module": "tensorflow-lite",
+          "version": {
+            "requires": "2.17.0"
+          }
+        },
+        {
+          "group": "com.google.ai.edge.litert",
+          "module": "litert-support",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.ai.edge.litert",
+          "module": "litert-gpu",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.ai.edge.litert",
+          "module": "litert-gpu-api",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "document-autoresolver-3.4.1.aar",
+          "url": "document-autoresolver-3.4.1.aar",
+          "size": 830084,
+          "sha512": "6a8927329871fbcc903db3c5102368ae5d798780ec0de279bac9303d6205d6697c1c4601d0f7507dde02e1e63d411d1879633025e4c4f9ccc847d2011cad39ec",
+          "sha256": "2765a5ba898c37ac12de7ada2ac72776949aa9019dcba65b9d234f8dd09d8e9a",
+          "sha1": "e9f9c3a36488ccaa16fa3eba3c1effc1c9f6de33",
+          "md5": "b2f285bcf8faca537ada26affc32f52a"
+        }
+      ]
+    }
+  ]
+}
