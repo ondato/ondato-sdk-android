@@ -45,7 +45,7 @@ Add SDK dependency to module level build.gradle file:
 
 ```groovy
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.4.1"
+    implementation "com.kyc.ondato:sdk-core:3.4.2"
 }
 ```
 
@@ -185,7 +185,7 @@ The SDK supports the following values inside the whitelabel JSON file:
   // CORE STYLING
   "brand": {
     "colors": {
-      "primaryColor": "#64749c", // Primary brand color - used in illustration and primary button
+      "primaryColor": "#64749C", // Primary brand color - used in illustration and primary button
 
       "textColor": "#000000", // Text color for content
       "backgroundColor": "#FFFFFF", // Base background color for screens
@@ -202,11 +202,11 @@ The SDK supports the following values inside the whitelabel JSON file:
       "grey600": "#6D7580", // Color for Proof of Address icon color, Text input Active state border
       "grey700": "#282B2F", // Color for feedback bar background color
       
-      "statusBarColor": "#64749c" // Default: brand.colors.primaryColor
+      "statusBarColor": "#64749C" // Default: brand.colors.primaryColor
     },
 
     "baseComponentStyling": {
-      "cornerRadius": 6, // Used for all input components (Buttons, Text inputs and other elements)
+      "cornerRadius": 6.0, // Used for all input components (Buttons, Text inputs and other elements)
       "buttonPadding": { "top": 14, "bottom": 14, "left": 24, "right": 24 }, // Used for Primary and Secondary button paddings
       "borderWidth": 1.0 // Used for Secondary button, Text input, Selection button border
     },
@@ -258,7 +258,7 @@ The SDK supports the following values inside the whitelabel JSON file:
   "buttons": {
     "primary": {
       "base": {
-        "cornerRadius": 6, // Default: brand.baseComponentStyling.cornerRadius
+        "cornerRadius": 6.0, // Default: brand.baseComponentStyling.cornerRadius
         "padding": { "top": 14, "bottom": 14, "left": 24, "right": 24 }, // Default: brand.baseComponentStyling.buttonPadding
 
         "fontSize": 16, // Type: Int  |   Default: typography.button.fontSize
@@ -268,15 +268,15 @@ The SDK supports the following values inside the whitelabel JSON file:
       },
       "normal": {
         "textColor": "#000000", // Type: String  |  Default: brand.colors.textColor
-        "backgroundColor": "#64749c", // Type: String  |  Default: brand.colors.primaryColor
+        "backgroundColor": "#64749C", // Type: String  |  Default: brand.colors.primaryColor
         "borderWidth": 1.0, // Type: Float   |  Default: brand.baseComponentStyling.borderWidth
-        "borderColor": "#64749c", // Type: String  |  Default: colors.primaryColor
+        "borderColor": "#64749C", // Type: String  |  Default: colors.primaryColor
         "iconColor": "#000000", // Type: String  |  Default: colors.textColor
         "opacity": 1.0 // Type: Float
       },
       "pressed": {
         "textColor": "#000000", // Type: String  |  Default: brand.colors.textColor
-        "backgroundColor": "#64749c", // Type: String  |  Default: brand.colors.primaryColor
+        "backgroundColor": "#64749C", // Type: String  |  Default: brand.colors.primaryColor
         "borderWidth": 1.0, // Type: Float   |  Default: brand.baseComponentStyling.borderWidth
         "borderColor": "#64749c", // Type: String  |  Default: colors.primaryColor
         "iconColor": "#000000", // Type: String  |  Default: colors.textColor
@@ -285,7 +285,7 @@ The SDK supports the following values inside the whitelabel JSON file:
       "disabled": {
         "textColor": "#96A0AE", // Type: String  |  Default: brand.colors.grey500
         "backgroundColor": "#F2F5F8", // Type: String  |  Default: brand.colors.grey200
-        "borderWidth": 1, // Type: Float   |  Default: brand.baseComponentStyling.borderWidth
+        "borderWidth": 1.0, // Type: Float   |  Default: brand.baseComponentStyling.borderWidth
         "borderColor": "#F2F5F8", // Type: String  |  Default: brand.colors.grey200
         "iconColor": "#96A0AE", // Type: String  |  Default: brand.colors.grey500
         "opacity": 1.0 // Type: Float
@@ -294,7 +294,7 @@ The SDK supports the following values inside the whitelabel JSON file:
 
     "secondary": {
       "base": {
-        "cornerRadius": 6, // Default: brand.baseComponentStyling.cornerRadius
+        "cornerRadius": 6.0, // Default: brand.baseComponentStyling.cornerRadius
         "padding": { "top": 14, "bottom": 14, "left": 24, "right": 24 }, // Default: brand.baseComponentStyling.buttonPadding
 
         "fontSize": 16, // Type: Int  |   Default: typography.button.fontSize
@@ -331,50 +331,50 @@ The SDK supports the following values inside the whitelabel JSON file:
     // Icon buttons (e.g. in proof-of-address upload screen) customisation
     "iconButton": {
       "base": {
-        "cornerRadius": 6, // Default: brand.baseComponentStyling.cornerRadius
+        "cornerRadius": 6.0 // Default: brand.baseComponentStyling.cornerRadius
       },
       "normal": {
         "iconColor": "#000000", // Type: String  |  Default: brand.colors.textColor
         "backgroundColor": "#FFFFFF", // Type: String  |  Default: brand.colors.backgroundColor
         "borderColor": "#FFFFFF", // Type: String  |  Default: brand.colors.backgroundColor
-        "borderWidth": 0, // Type: Float  |  Default: brand.baseComponentStyling.borderWidth
+        "borderWidth": 0.0 // Type: Float  |  Default: brand.baseComponentStyling.borderWidth
       },
       "pressed": {
         "iconColor": "#000000", // Type: String  |  Default: brand.colors.textColor
         "backgroundColor": "#F2F5F8", // Type: String  |  Default: brand.colors.grey200
         "borderColor": "#F2F5F8", // Type: String  |  Default: brand.colors.grey200
-        "borderWidth": 0, // Type: Float  |  Default: brand.baseComponentStyling.borderWidth
+        "borderWidth": 0.0 // Type: Float  |  Default: brand.baseComponentStyling.borderWidth
       },
       "disabled": {
         "iconColor": "#96A0AE", // Type: String  |  Default: brand.colors.grey500
         "backgroundColor": "#F2F5F8", // Type: String  |  Default: brand.colors.grey200
         "borderColor": "#F2F5F8", // Type: String  |  Default: brand.colors.grey200
-        "borderWidth": 0, // Type: Float  |  Default: brand.baseComponentStyling.borderWidth
+        "borderWidth": 0.0 // Type: Float  |  Default: brand.baseComponentStyling.borderWidth
       }
     },
 
     // Back and close navigation buttons customisation
     "navigationButton": {
       "base": {
-        "cornerRadius": 6, // Default: brand.baseComponentStyling.cornerRadius
+        "cornerRadius": 6.0 // Default: brand.baseComponentStyling.cornerRadius
       },
       "normal": {
         "iconColor": "#000000", // Type: String  |  Default: brand.colors.textColor
         "backgroundColor": "#FFFFFF", // Type: String  |  Default: brand.colors.backgroundColor
         "borderColor": "#FFFFFF", // Type: String  |  Default: brand.colors.backgroundColor
-        "borderWidth": 0, // Type: Float  |  Default: brand.baseComponentStyling.borderWidth
+        "borderWidth": 0.0 // Type: Float  |  Default: brand.baseComponentStyling.borderWidth
       },
       "pressed": {
         "iconColor": "#000000", // Type: String  |  Default: brand.colors.textColor
         "backgroundColor": "#F2F5F8", // Type: String  |  Default: brand.colors.grey200
         "borderColor": "#F2F5F8", // Type: String  |  Default: brand.colors.grey200
-        "borderWidth": 0, // Type: Float  |  Default: brand.baseComponentStyling.borderWidth
+        "borderWidth": 0.0 // Type: Float  |  Default: brand.baseComponentStyling.borderWidth
       },
       "disabled": {
         "iconColor": "#96A0AE", // Type: String  |  Default: brand.colors.grey500
         "backgroundColor": "#F2F5F8", // Type: String  |  Default: brand.colors.grey200
         "borderColor": "#F2F5F8", // Type: String  |  Default: brand.colors.grey200
-        "borderWidth": 0, // Type: Float  |  Default: bbrand.baseComponentStyling.borderWidth
+        "borderWidth": 0.0 // Type: Float  |  Default: bbrand.baseComponentStyling.borderWidth
       }
     }
   },
@@ -382,7 +382,7 @@ The SDK supports the following values inside the whitelabel JSON file:
   // Customisation options for all text types in the SDK
   "textInput": {
     "base": {
-      "cornerRadius": 6, // Type: Float  |   Default: brand.baseComponentStyling.cornerRadius
+      "cornerRadius": 6.0, // Type: Float  |   Default: brand.baseComponentStyling.cornerRadius
       "padding": { "top": 14, "bottom": 14, "left": 24, "right": 24 }, // Default: brand.baseComponentStyling.buttonPadding
 
       "fontSize": 16, // Type: Int  |   Default: typography.body.fontSize
@@ -427,7 +427,7 @@ The SDK supports the following values inside the whitelabel JSON file:
   // Used for tinkering the document selection card UI
   "selectionCard": {
     "base": {
-      "cornerRadius": 6, // Type: Float  |   Default: brand.baseComponentStyling.cornerRadius
+      "cornerRadius": 6.0, // Type: Float  |   Default: brand.baseComponentStyling.cornerRadius
 
       "fontSize": 16, // Type: Int  |   Default: typography.body.fontSize
       "fontWeight": 500, // Type: Int  |   Default: typography.body.fontWeight
@@ -461,7 +461,7 @@ The SDK supports the following values inside the whitelabel JSON file:
 
   // Used for changing the colour of the loading indicator
   "activityIndicator": {
-    "color": "#64749c" // Type: String  |  Default: brand.colors.primaryColor
+    "color": "#64749C" // Type: String  |  Default: brand.colors.primaryColor
   },
 
   // Used for customising the face authorisation screen frame and feedback bar
@@ -469,12 +469,12 @@ The SDK supports the following values inside the whitelabel JSON file:
     "frame": {
       "borderColor": "#282B2F", // Type: String  |  Default: brand.colors.grey700
       "borderWidth": 1.0, // Type: Float   |  Default: brand.baseComponentStyling.borderWidth
-      "progressColor": "#64749c" // Type: String  |  Default: brand.colors.primaryColor
+      "progressColor": "#64749C" // Type: String  |  Default: brand.colors.primaryColor
     },
     "feedbackBar": {
       "backgroundColor": "#282B2F", // Type: String  |  Default: brand.colors.grey700
       "textColor": "#F2F5F8", // Type: String  |  Default: brand.colors.grey200
-      "cornerRadius": 6 // Type: Float  |   Default: brand.baseComponentStyling.cornerRadius
+      "cornerRadius": 6.0 // Type: Float  |   Default: brand.baseComponentStyling.cornerRadius
     }
   },
 
@@ -620,8 +620,8 @@ If your identification configuration has NFC enabled and can be used in your flo
 
 ```groovy
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.4.1"
-    implementation "com.kyc.ondato:nfc-reader:3.4.1"
+    implementation "com.kyc.ondato:sdk-core:3.4.2"
+    implementation "com.kyc.ondato:nfc-reader:3.4.2"
 }
 ```
 
@@ -636,8 +636,8 @@ If your identification configuration has screen recording enabled and can be use
 
 ```groovy
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.4.1"
-    implementation "com.kyc.ondato:screen-recorder:3.4.1"
+    implementation "com.kyc.ondato:sdk-core:3.4.2"
+    implementation "com.kyc.ondato:screen-recorder:3.4.2"
 }
 ```
 
@@ -654,14 +654,17 @@ If your identification configuration has document autocapture enabled and can be
 
 ```groovy
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.4.1"
-    implementation "com.kyc.ondato:document-autoresolver:3.4.1"
+    implementation "com.kyc.ondato:sdk-core:3.4.2"
+    implementation "com.kyc.ondato:document-autoresolver:3.4.2"
 }
 ```
 
 By adding this dependency you will be able to use ML-based document recognition and capturing algorithms, increasing the identification success rates and creates less hassle than capturing document images themselves manually.
 
-Automatic document capture is valid for all types of documents, although proof-of-address documents cannot be captured automatically as of the current version (v.3.4.1).
+Automatic document capture is valid for all types of documents, although proof-of-address documents cannot be captured automatically as of the current version (v.3.4.2).
+
+> [!WARNING]
+> In most of the cases, the automatic document capture inside the flow setup configuration **is enabled by default**, so this module is necessary if you want to avoid runtime crashes which indicates that the SDK was improperly set up, i.e. it had missing modules. Please consult with the Ondato support team at [support@ondato.com](mailto:support@ondato.com) to check if your account has this configuration enabled or disabled.
 
 ---
 
@@ -672,8 +675,8 @@ The package size can differ, depending on which version of the SDK you are using
 |-----------------------|----------|
 | sdk-core              | 2.4 MB   |
 | document-autoresolver | 0.810 MB |
-| nfc-reader            | 0.577 MB |
-| screen-recorder       | 0.068 MB |
+| nfc-reader            | 0.579 MB |
+| screen-recorder       | 0.069 MB |
 
 Using AABs, enabling code minification and resource shrinking on your own app can greatly reduce the overall package size, therefore, the declared numbers here can actually be lower for the final result when you are publishing your app.
 

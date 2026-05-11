@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kyc.ondato",
+    "module": "screen-recorder",
+    "version": "3.4.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screen-recorder-3.4.2.aar",
+          "url": "screen-recorder-3.4.2.aar",
+          "size": 71360,
+          "sha512": "545a2b1741dcc3e6440c324d44355c428e3dd1b93ad183f22dd31bc6c554df32d025ddb5aafd9696f150168086e2b231c3360bf953e9fe772ea8b7c8520efcee",
+          "sha256": "2c91f86cad8131ed6b29a2a60cdb666548cbd4c9f403cd1f47663d2ec83ea8b7",
+          "sha1": "2689c1488f66a7b84b5f46d5a5a2847c841db558",
+          "md5": "ee6dfd59df5644e8bedd7e07b68d8d5b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kyc.ondato",
+          "module": "sdk-core",
+          "version": {
+            "requires": "3.4.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.facetec",
+          "module": "sdk",
+          "version": {
+            "requires": "9.7.112"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "sdk",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screen-recorder-3.4.2.aar",
+          "url": "screen-recorder-3.4.2.aar",
+          "size": 71360,
+          "sha512": "545a2b1741dcc3e6440c324d44355c428e3dd1b93ad183f22dd31bc6c554df32d025ddb5aafd9696f150168086e2b231c3360bf953e9fe772ea8b7c8520efcee",
+          "sha256": "2c91f86cad8131ed6b29a2a60cdb666548cbd4c9f403cd1f47663d2ec83ea8b7",
+          "sha1": "2689c1488f66a7b84b5f46d5a5a2847c841db558",
+          "md5": "ee6dfd59df5644e8bedd7e07b68d8d5b"
+        }
+      ]
+    }
+  ]
+}
