@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    compileSdkVersion 36
+    compileSdkVersion 37
     namespace = "com.kyc.ondato.sample"
 
     defaultConfig {
         applicationId "com.kyc.ondato.sample"
         minSdkVersion 24
-        targetSdkVersion 36
+        targetSdkVersion 37
         versionCode 1
-        versionName "3.4.2"
+        versionName "3.5.0"
     }
 
     compileOptions {
@@ -28,9 +28,12 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.7.1'
     // SDK core - required in all cases
-    implementation "com.kyc.ondato:sdk-core:3.4.2"
+    implementation "com.kyc.ondato:sdk-core:3.5.0"
+    // Alternatively, if you use automatic document capture, you can use this implementation instead:
+    // implementation "com.kyc.ondato:sdk:3.5.0"
+
     // Various additional modules - use if necessary
-    implementation "com.kyc.ondato:screen-recorder:3.4.2"
-    implementation "com.kyc.ondato:nfc-reader:3.4.2"
-    implementation "com.kyc.ondato:document-autoresolver:3.4.2"
+    implementation "com.kyc.ondato:screen-recorder:3.5.0"
+    implementation "com.kyc.ondato:nfc-reader:3.5.0"
+    implementation "com.kyc.ondato:document-autoresolver:3.5.0"
 }
