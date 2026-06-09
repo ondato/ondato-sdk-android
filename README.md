@@ -722,10 +722,10 @@ Using AABs, enabling code minification and resource shrinking on your own app ca
 
 For any questions, queries or additional information please contact Ondato support team at [support@ondato.com](mailto:support@ondato.com) and the support team will get back to you as soon as possible.
 
-You can also find publicly available documentation about Ondato products including the SDK at the [Confluence page](https://ondato.atlassian.net/wiki/spaces/PUB/overview?homepageId=2217672768).
+You can also find publicly available documentation about Ondato products including the SDK at the Confluence page. For more technical troubleshooting and guidance, have a look at the [repository wiki](https://github.com/ondato/ondato-sdk-android/wiki).
 
 We recommend to have the latest SDK version integrated within your apps so that you could get the newest features, performance improvements, bugfixes and more. You can subscribe to the SDK releases on Github so that you could be notified when a new release has been published and what changes it includes.
 
 ## Previous major versions
 
-If you still want to reach version 2 of the documentation, please refer to the [README file here](https://github.com/ondato/ondato-sdk-android/blob/main/v2/README.md).**
+If you still want to reach version 2 of the documentation, please refer to the [README file here](https://github.com/ondato/ondato-sdk-android/blob/main/v2/README.md).
