@@ -1,7 +1,5 @@
 # Ondato Android SDK
 
-## **Version 3 of SDK has been released! If you still want to reach version 2 of the documentation, please refer to the [README file here](https://github.com/ondato/ondato-sdk-android/blob/main/v2/README.md).**
-
 ## Table of contents
 
 * [Overview](#overview)
@@ -45,9 +43,34 @@ Add SDK dependency to module level build.gradle file:
 
 ```groovy
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.4.2"
+    implementation "com.kyc.ondato:sdk-core:3.5.0"
 }
 ```
+
+> [!IMPORTANT]
+> Most, if not all configurations have automatic document capture enabled for identity verification flows inside internal systems **by default**, therefore having a core package only might not suffice for efficient SDK operation.
+>
+> To mitigate this, starting with version 3.5, there are two ways to integrate the SDK:
+> 1. By using a combined (fused) library called `sdk`, which contains both `sdk-core` and `document-autoresolver` modules;
+> 2. By implementing `sdk-core` and `document-autoresolver` modules separately.
+>
+> For the first case scenario, instead of
+> ```groovy
+> dependencies {
+>    implementation "com.kyc.ondato:sdk-core:3.5.0"
+> }
+>```
+> use the following:
+>
+> ```groovy
+> dependencies {
+>    implementation "com.kyc.ondato:sdk:3.5.0"
+> }
+> ```
+>
+> This ensures that you will have all the necessary modules without having to worry about integrating them separately - somewhat similar to bill of materials (BOM) but all the necessary libraries are combined into one. **You do not need to add either `sdk-core` or `document-autoresolver` packages if `sdk` package is used.**
+>
+> Alternatively, you can integrate `sdk-core` and `document-autoresolver` modules separately - see [automatic document capture section](#automatic-document-capture-module) for details.
 
 ### 2. Creating the SDK configuration
 
@@ -66,6 +89,7 @@ dependencies {
         .setLoadingScreenProvider { CustomLoadingScreenFragment.newInstance() }
         .setInstructionsScreenProvider { mode, callback -> CustomInstructionsFragment.newInstance(mode, callback) }
         .setTermsAndConditionsRules(true, 10000L) // default parameters: true for enabling button after scrolling to the end of text, 10 seconds timeout for enabling the terms acceptance button
+        .showComplianceTextDocSelect(false) // default is false
         .build()
 
 ```
@@ -162,7 +186,8 @@ Ondato Android SDK already comes with out-of-the-box translations for the follow
 - Korean (ko) 🇰🇷
 - Latvian (lv) 🇱🇻
 - Polish (pl) 🇵🇱
-- Portuguese (pt) 🇵🇹🇧🇷
+- Portuguese (Portugal) (pt-PT) 🇵🇹
+- Portuguese (Brazil) (pt-BR) 🇧🇷
 - Romanian (ro) 🇷🇴
 - Russian (ru) 🇷🇺
 - Slovak (sk) 🇸🇰
@@ -202,7 +227,10 @@ The SDK supports the following values inside the whitelabel JSON file:
       "grey600": "#6D7580", // Color for Proof of Address icon color, Text input Active state border
       "grey700": "#282B2F", // Color for feedback bar background color
       
-      "statusBarColor": "#64749C" // Default: brand.colors.primaryColor
+      "statusBarColor": "#64749C", // Default: brand.colors.primaryColor
+      "navigationBarColor": "#FFFFFF", // Default: brand.colors.backgroundColor
+
+      "certificateColor": "#6D7580" // Type: String  |  Default: brand.colors.grey600
     },
 
     "baseComponentStyling": {
@@ -516,6 +544,14 @@ The SDK supports the following values inside the whitelabel JSON file:
     "fontSize": 16, // Type: Int  |   Default: typography.body.fontSize
     "fontWeight": 500, // Type: Int  |   Default: typography.body.fontWeight
     "lineHeight": 22 // Type: Int  |   Default: typography.body.lineHeight 
+  },
+
+  // Used for the various pop-ups
+  "modalConfiguration": {
+    "backgroundColor": "#FFFFFF", // Type: String  |  Default: brand.colors.backgroundColor
+    "textColor": "#000000", // Type: String  |  Default: brand.colors.textColor
+    "cornerRadius": 6.0, // Type: Float  |   Default: brand.baseComponentStyling.cornerRadius
+    "backdropOpacity": 0.5 // Type: Float
   }
 }
 ```
@@ -620,8 +656,8 @@ If your identification configuration has NFC enabled and can be used in your flo
 
 ```groovy
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.4.2"
-    implementation "com.kyc.ondato:nfc-reader:3.4.2"
+    implementation "com.kyc.ondato:sdk-core:3.5.0"
+    implementation "com.kyc.ondato:nfc-reader:3.5.0"
 }
 ```
 
@@ -636,8 +672,8 @@ If your identification configuration has screen recording enabled and can be use
 
 ```groovy
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.4.2"
-    implementation "com.kyc.ondato:screen-recorder:3.4.2"
+    implementation "com.kyc.ondato:sdk-core:3.5.0"
+    implementation "com.kyc.ondato:screen-recorder:3.5.0"
 }
 ```
 
@@ -654,14 +690,14 @@ If your identification configuration has document autocapture enabled and can be
 
 ```groovy
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.4.2"
-    implementation "com.kyc.ondato:document-autoresolver:3.4.2"
+    implementation "com.kyc.ondato:sdk-core:3.5.0"
+    implementation "com.kyc.ondato:document-autoresolver:3.5.0"
 }
 ```
 
 By adding this dependency you will be able to use ML-based document recognition and capturing algorithms, increasing the identification success rates and creates less hassle than capturing document images themselves manually.
 
-Automatic document capture is valid for all types of documents, although proof-of-address documents cannot be captured automatically as of the current version (v.3.4.2).
+Automatic document capture is valid for all types of documents, although proof-of-address documents cannot be captured automatically as of the current version (v.3.5.0).
 
 > [!WARNING]
 > In most of the cases, the automatic document capture inside the flow setup configuration **is enabled by default**, so this module is necessary if you want to avoid runtime crashes which indicates that the SDK was improperly set up, i.e. it had missing modules. Please consult with the Ondato support team at [support@ondato.com](mailto:support@ondato.com) to check if your account has this configuration enabled or disabled.
@@ -671,12 +707,12 @@ Automatic document capture is valid for all types of documents, although proof-o
 ## SDK sizing
 The package size can differ, depending on which version of the SDK you are using, but for most cases, it stays under a similar package size.
 
-| Module                | Size     |
-|-----------------------|----------|
-| sdk-core              | 2.4 MB   |
-| document-autoresolver | 0.810 MB |
-| nfc-reader            | 0.579 MB |
-| screen-recorder       | 0.069 MB |
+| Module                    | Size     |
+|---------------------------|----------|
+| sdk-core                  | 2.2 MB   |
+| document-autoresolver     | 0.799 MB |
+| nfc-reader                | 0.547 MB |
+| screen-recorder           | 0.069 MB |
 
 Using AABs, enabling code minification and resource shrinking on your own app can greatly reduce the overall package size, therefore, the declared numbers here can actually be lower for the final result when you are publishing your app.
 
@@ -689,3 +725,7 @@ For any questions, queries or additional information please contact Ondato suppo
 You can also find publicly available documentation about Ondato products including the SDK at the [Confluence page](https://ondato.atlassian.net/wiki/spaces/PUB/overview?homepageId=2217672768).
 
 We recommend to have the latest SDK version integrated within your apps so that you could get the newest features, performance improvements, bugfixes and more. You can subscribe to the SDK releases on Github so that you could be notified when a new release has been published and what changes it includes.
+
+## Previous major versions
+
+If you still want to reach version 2 of the documentation, please refer to the [README file here](https://github.com/ondato/ondato-sdk-android/blob/main/v2/README.md).**
