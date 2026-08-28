@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.kyc.ondato</groupId>
   <artifactId>sdk-core</artifactId>
-  <version>3.4.3</version>
+  <version>3.4.4</version>
   <packaging>aar</packaging>
   <dependencyManagement>
     <dependencies>

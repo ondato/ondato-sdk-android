@@ -3,7 +3,7 @@
   "component": {
     "group": "com.kyc.ondato",
     "module": "sdk-core",
-    "version": "3.4.3",
+    "version": "3.4.4",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -61,13 +61,13 @@
       ],
       "files": [
         {
-          "name": "sdk-core-3.4.3.aar",
-          "url": "sdk-core-3.4.3.aar",
-          "size": 5908993,
-          "sha512": "14e613a27bb31328e63da917ef2f6852ab1e994ca3d1e5f39ccd4690f27466a85a7680f1e1a2fdfbaa363a3020b36c5f3d589ffe0b42e85971f416c0f0307151",
-          "sha256": "e5d82d5822164729a27061c7d9151a1c5fef27c21e42ba34df078c2e178595de",
-          "sha1": "d66a7616fe0c5c07324a4a71985dd2eda69af9e4",
-          "md5": "376af9bb326218ce800bc48ef769319f"
+          "name": "sdk-core-3.4.4.aar",
+          "url": "sdk-core-3.4.4.aar",
+          "size": 2576171,
+          "sha512": "756af10bee009cdfbaaaf8e22ec6575ca7a2013692ba152d915626a031989b4cd2ef5147dcf9707604bb50b0eceda97964234929812b04aa9ec6b999b7bf9725",
+          "sha256": "4bd86acab96e7dd66596dc5f5ab9ad5e46ffc4c2a62427dc5fb39bb22eeb5fc7",
+          "sha1": "8e8bd07bec5701a04598f9e8209035153187f1e9",
+          "md5": "8441546a7486eaa89f1637907e247958"
         }
       ]
     },
@@ -366,13 +366,13 @@
       ],
       "files": [
         {
-          "name": "sdk-core-3.4.3.aar",
-          "url": "sdk-core-3.4.3.aar",
-          "size": 5908993,
-          "sha512": "14e613a27bb31328e63da917ef2f6852ab1e994ca3d1e5f39ccd4690f27466a85a7680f1e1a2fdfbaa363a3020b36c5f3d589ffe0b42e85971f416c0f0307151",
-          "sha256": "e5d82d5822164729a27061c7d9151a1c5fef27c21e42ba34df078c2e178595de",
-          "sha1": "d66a7616fe0c5c07324a4a71985dd2eda69af9e4",
-          "md5": "376af9bb326218ce800bc48ef769319f"
+          "name": "sdk-core-3.4.4.aar",
+          "url": "sdk-core-3.4.4.aar",
+          "size": 2576171,
+          "sha512": "756af10bee009cdfbaaaf8e22ec6575ca7a2013692ba152d915626a031989b4cd2ef5147dcf9707604bb50b0eceda97964234929812b04aa9ec6b999b7bf9725",
+          "sha256": "4bd86acab96e7dd66596dc5f5ab9ad5e46ffc4c2a62427dc5fb39bb22eeb5fc7",
+          "sha1": "8e8bd07bec5701a04598f9e8209035153187f1e9",
+          "md5": "8441546a7486eaa89f1637907e247958"
         }
       ]
     }

@@ -3,7 +3,7 @@
   "component": {
     "group": "com.kyc.ondato",
     "module": "screen-recorder",
-    "version": "3.4.3",
+    "version": "3.4.4",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -40,8 +40,8 @@
       ],
       "files": [
         {
-          "name": "screen-recorder-3.4.3.aar",
-          "url": "screen-recorder-3.4.3.aar",
+          "name": "screen-recorder-3.4.4.aar",
+          "url": "screen-recorder-3.4.4.aar",
           "size": 71413,
           "sha512": "d4098ef9d5d17c0519c64e19d071a473a489bd85e41d4ce6e2d12adc2a177f1e5e311c36414939ad195e6c7d0a659c84039b9a38facb1bd83ffb247793814399",
           "sha256": "d81e9f0ec122da874dce9b5911285d90738f78b7d36bde7248a7cc0a800ddd58",
@@ -63,7 +63,7 @@
           "group": "com.kyc.ondato",
           "module": "sdk-core",
           "version": {
-            "requires": "3.4.3"
+            "requires": "3.4.4"
           }
         },
         {
@@ -124,8 +124,8 @@
       ],
       "files": [
         {
-          "name": "screen-recorder-3.4.3.aar",
-          "url": "screen-recorder-3.4.3.aar",
+          "name": "screen-recorder-3.4.4.aar",
+          "url": "screen-recorder-3.4.4.aar",
           "size": 71413,
           "sha512": "d4098ef9d5d17c0519c64e19d071a473a489bd85e41d4ce6e2d12adc2a177f1e5e311c36414939ad195e6c7d0a659c84039b9a38facb1bd83ffb247793814399",
           "sha256": "d81e9f0ec122da874dce9b5911285d90738f78b7d36bde7248a7cc0a800ddd58",

@@ -3,7 +3,7 @@
   "component": {
     "group": "com.kyc.ondato",
     "module": "document-autoresolver",
-    "version": "3.4.3",
+    "version": "3.4.4",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -33,8 +33,8 @@
       ],
       "files": [
         {
-          "name": "document-autoresolver-3.4.3.aar",
-          "url": "document-autoresolver-3.4.3.aar",
+          "name": "document-autoresolver-3.4.4.aar",
+          "url": "document-autoresolver-3.4.4.aar",
           "size": 830084,
           "sha512": "6a8927329871fbcc903db3c5102368ae5d798780ec0de279bac9303d6205d6697c1c4601d0f7507dde02e1e63d411d1879633025e4c4f9ccc847d2011cad39ec",
           "sha256": "2765a5ba898c37ac12de7ada2ac72776949aa9019dcba65b9d234f8dd09d8e9a",
@@ -56,7 +56,7 @@
           "group": "com.kyc.ondato",
           "module": "sdk-core",
           "version": {
-            "requires": "3.4.3"
+            "requires": "3.4.4"
           }
         },
         {
@@ -240,8 +240,8 @@
       ],
       "files": [
         {
-          "name": "document-autoresolver-3.4.3.aar",
-          "url": "document-autoresolver-3.4.3.aar",
+          "name": "document-autoresolver-3.4.4.aar",
+          "url": "document-autoresolver-3.4.4.aar",
           "size": 830084,
           "sha512": "6a8927329871fbcc903db3c5102368ae5d798780ec0de279bac9303d6205d6697c1c4601d0f7507dde02e1e63d411d1879633025e4c4f9ccc847d2011cad39ec",
           "sha256": "2765a5ba898c37ac12de7ada2ac72776949aa9019dcba65b9d234f8dd09d8e9a",

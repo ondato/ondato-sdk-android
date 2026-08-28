@@ -3,7 +3,7 @@
   "component": {
     "group": "com.kyc.ondato",
     "module": "nfc-reader",
-    "version": "3.4.3",
+    "version": "3.4.4",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -33,8 +33,8 @@
       ],
       "files": [
         {
-          "name": "nfc-reader-3.4.3.aar",
-          "url": "nfc-reader-3.4.3.aar",
+          "name": "nfc-reader-3.4.4.aar",
+          "url": "nfc-reader-3.4.4.aar",
           "size": 594365,
           "sha512": "0f30ca8aff25a801e027f9cb625f14951a9755aaad3558d2a2d20c38b9f6cce2dc5e9c1aadc140a6ef6df6f53e16ceab155384a3b6634d8dea060d383dbf5368",
           "sha256": "4e69c8e5cbeae0a9b7a445a8804ed49e19bc19289af28fa8da8dc52e7a2aa111",
@@ -56,7 +56,7 @@
           "group": "com.kyc.ondato",
           "module": "sdk-core",
           "version": {
-            "requires": "3.4.3"
+            "requires": "3.4.4"
           }
         },
         {
@@ -226,8 +226,8 @@
       ],
       "files": [
         {
-          "name": "nfc-reader-3.4.3.aar",
-          "url": "nfc-reader-3.4.3.aar",
+          "name": "nfc-reader-3.4.4.aar",
+          "url": "nfc-reader-3.4.4.aar",
           "size": 594365,
           "sha512": "0f30ca8aff25a801e027f9cb625f14951a9755aaad3558d2a2d20c38b9f6cce2dc5e9c1aadc140a6ef6df6f53e16ceab155384a3b6634d8dea060d383dbf5368",
           "sha256": "4e69c8e5cbeae0a9b7a445a8804ed49e19bc19289af28fa8da8dc52e7a2aa111",
