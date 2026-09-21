@@ -43,7 +43,7 @@ Add SDK dependency to module level build.gradle file:
 
 ```groovy
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.5.1"
+    implementation "com.kyc.ondato:sdk-core:3.6.0"
 }
 ```
 
@@ -57,14 +57,14 @@ dependencies {
 > For the first case scenario, instead of
 > ```groovy
 > dependencies {
->    implementation "com.kyc.ondato:sdk-core:3.5.1"
+>    implementation "com.kyc.ondato:sdk-core:3.6.0"
 > }
 >```
 > use the following:
 >
 > ```groovy
 > dependencies {
->    implementation "com.kyc.ondato:sdk:3.5.1"
+>    implementation "com.kyc.ondato:sdk:3.6.0"
 > }
 > ```
 >
@@ -656,8 +656,8 @@ If your identification configuration has NFC enabled and can be used in your flo
 
 ```groovy
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.5.1"
-    implementation "com.kyc.ondato:nfc-reader:3.5.1"
+    implementation "com.kyc.ondato:sdk-core:3.6.0"
+    implementation "com.kyc.ondato:nfc-reader:3.6.0"
 }
 ```
 
@@ -672,8 +672,8 @@ If your identification configuration has screen recording enabled and can be use
 
 ```groovy
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.5.1"
-    implementation "com.kyc.ondato:screen-recorder:3.5.1"
+    implementation "com.kyc.ondato:sdk-core:3.6.0"
+    implementation "com.kyc.ondato:screen-recorder:3.6.0"
 }
 ```
 
@@ -690,14 +690,14 @@ If your identification configuration has document autocapture enabled and can be
 
 ```groovy
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.5.1"
-    implementation "com.kyc.ondato:document-autoresolver:3.5.1"
+    implementation "com.kyc.ondato:sdk-core:3.6.0"
+    implementation "com.kyc.ondato:document-autoresolver:3.6.0"
 }
 ```
 
 By adding this dependency you will be able to use ML-based document recognition and capturing algorithms, increasing the identification success rates and creates less hassle than capturing document images themselves manually.
 
-Automatic document capture is valid for all types of documents, although proof-of-address documents cannot be captured automatically as of the current version (v.3.5.1).
+Automatic document capture is valid for all types of documents, although proof-of-address documents cannot be captured automatically as of the current version (v.3.6.0).
 
 > [!WARNING]
 > In most of the cases, the automatic document capture inside the flow setup configuration **is enabled by default**, so this module is necessary if you want to avoid runtime crashes which indicates that the SDK was improperly set up, i.e. it had missing modules. Please consult with the Ondato support team at [support@ondato.com](mailto:support@ondato.com) to check if your account has this configuration enabled or disabled.
@@ -709,9 +709,9 @@ The package size can differ, depending on which version of the SDK you are using
 
 | Module                    | Size     |
 |---------------------------|----------|
-| sdk-core                  | 2.3 MB   |
-| document-autoresolver     | 0.799 MB |
-| nfc-reader                | 0.615 MB |
+| sdk-core                  | 2.5 MB   |
+| document-autoresolver     | 5.6 MB   |
+| nfc-reader                | 0.616 MB |
 | screen-recorder           | 0.069 MB |
 
 Using AABs, enabling code minification and resource shrinking on your own app can greatly reduce the overall package size, therefore, the declared numbers here can actually be lower for the final result when you are publishing your app.
