@@ -15,7 +15,8 @@ This SDK provides a drop-in set of screens and tools for Android applications to
 - Advanced image quality detection technology to ensure the quality of the captured images meets the requirement of the Ondato identity verification process, guaranteeing the best success rate
 - Direct image upload to the Ondato service, to simplify integration\*
 
-\* Note: the SDK is only responsible for capturing and uploading photos/videos. You still need to access the [Ondato API](https://ondato.atlassian.net/wiki/spaces/PUB/pages/2334359560/Customer+onboarding+KYC+mobile+SDK+integration) to create and manage checks.
+> [!IMPORTANT]
+> The SDK is only responsible for capturing and uploading photos/videos. You still need to access the [Ondato API](https://ondato.atlassian.net/wiki/spaces/PUB/pages/2334359560/Customer+onboarding+KYC+mobile+SDK+integration) to create and manage checks.
 
 The SDK supports from Android 5.0 Lollipop (API level 21) and above.
 
@@ -37,15 +38,17 @@ Add SDK dependency to module level build.gradle file:
 
 ```
 dependencies {
-    implementation "com.kyc.ondato:sdk:2.6.7"
+    implementation "com.kyc.ondato:sdk:2.6.8"
 }
 ```         
 
-Since version 2.6.0, the NFC reader and screen recorder modules were separated from the core SDK package, meaning that these functionalities will not work if not imported explicitly. If you want to use the following modules, add these lines to your module level build.gradle file:
-
-- `implementation "com.kyc.ondato:recorder:2.6.7"` - for screen recording
-- `implementation "com.kyc.ondato:nfc-reader:2.6.7"` - for NFC tag scanning
-
+Starting from SDK version 2.6.0, screen recorder and NFC reader functionalities were separated into different packages, meaning that if you want to use them, you should additionally include them as dependencies in your module level build.gradle file:
+```
+dependencies {
+    implementation "com.kyc.ondato:recorder:2.6.8" // for screen recorder
+    implementation "com.kyc.ondato:nfc-reader:2.6.8" // for enabling NFC tag scanning
+}
+```
 
 ### 2. Creating the SDK configuration
 
@@ -62,10 +65,17 @@ Since version 2.6.0, the NFC reader and screen recorder modules were separated f
 
 ```
 
-In case, Passive Liveness check is configured, please, contact Ondato support team support@ondato.com to check if your account is configured accordingly.
+> [!NOTE]
+> In case Passive Liveness check is configured, please contact Ondato support team at [support@ondato.com](mailto:support@ondato.com) to check if your account is configured accordingly.
 
 
 ### 3. Starting the flow
+
+There are two methods from the API that need to be called in order to start Ondato SDK:
+- `.init(config)` - this initialises the SDK with the given `config`, which can be set as described in "creating the SDK configuration" block.
+- `.startIdentification(context, resultListener)` - this launches the SDK itself with applied parameters from `init()` method. The `ResultListener` interface is needed to wrap the library result calls (either success or failure results).
+> [!IMPORTANT]
+> Take note that `.init()` and `.startIdentification()` methods **must be started in one, single atomic block**, otherwise unwanted behaviour could occur within the sessions.
 
 ```kotlin
 Ondato.init(config)
@@ -115,7 +125,8 @@ Ondato Android SDK already comes with out-of-the-box translations for the follow
 - Dutch (nl) 🇳🇱
 - System ⚙️ (if device language is not translated, everything will be in English)
 
-You can also **provide your own translations** by overriding [Ondato's string keys](https://github.com/ondato/ondato-sdk-android/blob/main/v2/strings/strings.xml) in your `strings.xml`.
+> [!TIP]
+> You can also **provide your own translations** by overriding [Ondato's string keys](https://github.com/ondato/ondato-sdk-android/blob/main/strings/strings.xml) in your `strings.xml`.
 
 ### 5. Theme Customization
 In order to enhance the user experience on the transition between your application and the SDK, you can provide some customization by defining certain colors inside your own colors.xml file:
