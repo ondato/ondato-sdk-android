@@ -3,8 +3,8 @@
   <groupId>com.facetec</groupId>
   <artifactId>sdk</artifactId>
   <versioning>
-    <latest>9.7.142</latest>
-    <release>9.7.142</release>
+    <latest>9.7.151</latest>
+    <release>9.7.151</release>
     <versions>
       <version>9.6.50</version>
       <version>9.6.66</version>
@@ -19,7 +19,8 @@
       <version>9.7.112</version>
       <version>9.7.128</version>
       <version>9.7.142</version>
+      <release>9.7.151</release>
     </versions>
-    <lastUpdated>20260907062105</lastUpdated>
+    <lastUpdated>20261109072443</lastUpdated>
   </versioning>
 </metadata>
