@@ -21,7 +21,7 @@ This SDK provides a drop-in set of screens and tools for Android applications to
 - Direct image upload to the Ondato service, to simplify integration\*
 
 > [!IMPORTANT]
-> The SDK is only responsible for capturing and uploading photos/videos. You still need to access the [Ondato API](https://ondato.atlassian.net/wiki/spaces/PUB/pages/2334359560/Customer+onboarding+KYC+mobile+SDK+integration) to create and manage checks.
+> The SDK is only responsible for capturing and uploading photos/videos. You still need to access the [Ondato API](https://ondato.atlassian.net/wiki/spaces/PUB/pages/2334359560/Customer+onboarding+KYC+mobile+SDK+integration) to create and manage checks as well as generating session IDs.
 
 The SDK supports from Android 7.0 Nougat (API level 24) and above.
 
@@ -43,7 +43,7 @@ Add SDK dependency to module level build.gradle file:
 
 ```groovy
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.6.2"
+    implementation "com.kyc.ondato:sdk-core:3.6.3"
 }
 ```
 
@@ -57,14 +57,14 @@ dependencies {
 > For the first case scenario, instead of
 > ```groovy
 > dependencies {
->    implementation "com.kyc.ondato:sdk-core:3.6.2"
+>    implementation "com.kyc.ondato:sdk-core:3.6.3"
 > }
 >```
 > use the following:
 >
 > ```groovy
 > dependencies {
->    implementation "com.kyc.ondato:sdk:3.6.2"
+>    implementation "com.kyc.ondato:sdk:3.6.3"
 > }
 > ```
 >
@@ -663,8 +663,8 @@ If your identification configuration has NFC enabled and can be used in your flo
 
 ```groovy
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.6.2"
-    implementation "com.kyc.ondato:nfc-reader:3.6.2"
+    implementation "com.kyc.ondato:sdk-core:3.6.3"
+    implementation "com.kyc.ondato:nfc-reader:3.6.3"
 }
 ```
 
@@ -679,8 +679,8 @@ If your identification configuration has screen recording enabled and can be use
 
 ```groovy
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.6.2"
-    implementation "com.kyc.ondato:screen-recorder:3.6.2"
+    implementation "com.kyc.ondato:sdk-core:3.6.3"
+    implementation "com.kyc.ondato:screen-recorder:3.6.3"
 }
 ```
 
@@ -697,14 +697,14 @@ If your identification configuration has document autocapture enabled and can be
 
 ```groovy
 dependencies {
-    implementation "com.kyc.ondato:sdk-core:3.6.2"
-    implementation "com.kyc.ondato:document-autoresolver:3.6.2"
+    implementation "com.kyc.ondato:sdk-core:3.6.3"
+    implementation "com.kyc.ondato:document-autoresolver:3.6.3"
 }
 ```
 
 By adding this dependency you will be able to use ML-based document recognition and capturing algorithms, increasing the identification success rates and creates less hassle than capturing document images themselves manually.
 
-Automatic document capture is valid for all types of documents, although proof-of-address documents cannot be captured automatically as of the current version (v.3.6.2).
+Automatic document capture is valid for all types of documents, although proof-of-address documents cannot be captured automatically as of the current version (v.3.6.3).
 
 > [!WARNING]
 > In most of the cases, the automatic document capture inside the flow setup configuration **is enabled by default**, so this module is necessary if you want to avoid runtime crashes which indicates that the SDK was improperly set up, i.e. it had missing modules. Please consult with the Ondato support team at [support@ondato.com](mailto:support@ondato.com) to check if your account has this configuration enabled or disabled.
